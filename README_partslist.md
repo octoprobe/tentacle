@@ -1,5 +1,7 @@
 # Parts list for one tentacle
 
+Aport from the assembled PCB, these parts are required for a fully functional tentacle.
+
 | Count | Part | Manufacturer | Part # | Image |
 | - | - | - | - | - |
 | 4 | Bolzone | 3D printed | [STL](model3d_spacer_bolzone/20240719b_bolzone.stl) | ![](model3d_spacer_bolzone/20240719b_bolzone.png) |
