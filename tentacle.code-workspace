@@ -4,5 +4,15 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {},
+	"extensions": {
+		"recommendations": [
+			"njpwerner.autodocstring",
+			"hediet.vscode-drawio",
+			"swyddfa.esbonio",
+			"ms-python.python",
+			"lextudio.restructuredtext",
+			"trond-snekvik.simple-rst"
+		]
+	}
 }

@@ -8,3 +8,4 @@ kicad/kicad_tentacle_v*/production/*
 kicad/kicad_tentacle_v*/00_project_library.bak
 kicad/kicad_tentacle_v*/replicate_layout.log
 kicad/kicad_tentacle_v*/pcb_octoprobe.kicad_sch-bak
+docs/_build/**
