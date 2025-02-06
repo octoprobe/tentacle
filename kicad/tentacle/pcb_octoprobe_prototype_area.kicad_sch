@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Octoprobe tentacle")
-		(date "2024-08-04")
-		(rev "0.3")
+		(date "2025-02-13")
+		(rev "0.4")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
 	)

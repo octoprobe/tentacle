@@ -1,4 +1,12 @@
-# Octoprobe Tentacle v0.3
+# Octoprobe Tentacle v0.4
+
+![tentacle](production_v0.3/pcb_top_3D.png)
+
+[schematics](production_v0.3/schematics.pdf)
+
+## History v0.3 -> v0.4
+
+## Octoprobe Tentacle v0.3
 
 ![tentacle](production_v0.3/pcb_top_3D.png)
 
