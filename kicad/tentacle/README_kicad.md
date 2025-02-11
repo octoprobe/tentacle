@@ -49,13 +49,13 @@ Menu `Inspect -> Design Rules Chacker`, check `Refill all zones`, button `Run DR
 
 Delete all files in directory `production`.
 
-Icon `Fabricaton Toolkit`, Options empty, check `Apply automatic translatons`, UNcheck `Exluce DNP components`.
+Icon `Fabricaton Toolkit`, Options empty, check `Apply automatic translatons`, check `Exluce DNP components`.
 
 Rename production folder and add version number
 
 ### Print schematics
 
-Schematics, Menu `File -> Print`, check 'Print drawing sheet - Color`, `Print`, `All Paages`, `Print to File`.
+Schematics, Menu `File -> Print`, check 'Print drawing sheet - Color`, `Print`, `All Pages`, `Print to File`.
 
 Move `~/Documents/output.pdf` to `hardware/octoprobe_kicad_v0.1/production_v1.0/schematics.pdf`
 
@@ -67,9 +67,9 @@ The below parts won't be assembled due to data missing.
 J202,J203,J204,J103,J104,J101,J102,J105 designators don't exist in the BOM file.
 ```
 
-```
-BOM does not match.
-```
+BOM
+ * Verify that the correct values, specially C and R, have been choosen.
+ * J201, ...: Do not place.
 
 Manual correction
  * USB Connectors: Manual postition

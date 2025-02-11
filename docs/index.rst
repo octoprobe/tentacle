@@ -6,6 +6,8 @@
 
     tentacle.rst
     pcb/bom.rst
+    rp2_probe.rst
+    rp2_probe-obsolete.rst
     license.rst
 
 .. Indices and tables

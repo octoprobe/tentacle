@@ -6,7 +6,7 @@ This repo describes the hardware of a tentacle:
 Schematics
 ----------
 
-:download:`Schematics (Pdf) <../kicad/kicad_tentacle_v0.3/production_v0.3/schematics.pdf>`.
+:download:`Schematics (Pdf) <../kicad/tentacle/production_v0.3/schematics.pdf>`.
 
 PCB
 ---

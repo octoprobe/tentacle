@@ -927,7 +927,6 @@
 	(hierarchical_label "PWR_EN"
 		(shape input)
 		(at 81.28 81.28 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -939,7 +938,6 @@
 	(hierarchical_label "VOUT"
 		(shape output)
 		(at 137.16 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1002,11 +1000,29 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C19702"
+			(at -0.0001 177.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C19702"
+			(at -0.0001 177.8001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "e5f9613d-02d0-4c79-b032-3ee114a79414")
+			(uuid "f1ce8043-dc5d-41b4-ac43-18dc32e18a66")
 		)
 		(pin "2"
-			(uuid "61fe4438-610e-4342-b495-9e92b45dc9bf")
+			(uuid "8cbb62de-df48-4fbe-a7ff-4216dee29686")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1014,7 +1030,7 @@
 					(reference "C1402")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "C402")
 					(unit 1)
 				)
@@ -1075,7 +1091,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "63feb689-e897-4d54-a2e8-3fb19c6b129d")
+			(uuid "1ccbac18-6e70-439a-a7c6-a60969c88a37")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1083,7 +1099,7 @@
 					(reference "#PWR01404")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#PWR0404")
 					(unit 1)
 				)
@@ -1151,7 +1167,7 @@
 					(reference "#SYM1401")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#SYM401")
 					(unit 1)
 				)
@@ -1212,7 +1228,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "3e193706-8fb0-4115-b73b-f6a0a06ffe1c")
+			(uuid "c2f62e8a-c6fe-45c1-ac11-ab5c66202e26")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1220,7 +1236,7 @@
 					(reference "#PWR01402")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#PWR0402")
 					(unit 1)
 				)
@@ -1281,7 +1297,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "aa502060-e995-40d6-8cb5-c3738b43bc08")
+			(uuid "977086ee-38e3-4894-91f9-1b89e290d085")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1289,7 +1305,7 @@
 					(reference "#PWR01401")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#PWR0401")
 					(unit 1)
 				)
@@ -1351,7 +1367,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "344c1959-3192-4535-a660-60884e19ef08")
+			(uuid "064b7680-9ec5-41ca-836e-6331860a0171")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1359,7 +1375,7 @@
 					(reference "#PWR01403")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#PWR0403")
 					(unit 1)
 				)
@@ -1438,19 +1454,19 @@
 			)
 		)
 		(pin "1"
-			(uuid "1e1dd81f-3420-44ae-859d-e2160e3bc052")
+			(uuid "926712b7-e0ee-4eeb-b9ca-ba77d177ceea")
 		)
 		(pin "3"
-			(uuid "f0667ad2-f19c-4add-9da5-3065084b148f")
+			(uuid "9203be5e-470d-475b-848c-120e603382f3")
 		)
 		(pin "4"
-			(uuid "cdb133d6-410e-4951-a0ee-4c313073003f")
+			(uuid "320b7ec7-9bb0-4320-a1c6-4a1b21f4f039")
 		)
 		(pin "5"
-			(uuid "167fff8b-c470-4d1a-9f8c-c00a2c57ba39")
+			(uuid "214d8834-1ca6-4d15-99f2-e524c3a3c7d2")
 		)
 		(pin "2"
-			(uuid "20976d9f-a76b-4c60-8d0a-c2ccf72ed23c")
+			(uuid "64761a6e-b08a-4206-87d3-845933a914eb")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1458,7 +1474,7 @@
 					(reference "U1401")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "U401")
 					(unit 1)
 				)
@@ -1519,7 +1535,7 @@
 			)
 		)
 		(pin "1"
-			(uuid "4a94b24f-969b-46f0-babe-4464a7aebfda")
+			(uuid "54473bd4-aea4-495b-84b1-0a0ff866859d")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1527,7 +1543,7 @@
 					(reference "#PWR01405")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "#PWR0405")
 					(unit 1)
 				)
@@ -1588,11 +1604,29 @@
 				(hide yes)
 			)
 		)
+		(property "JLC" "C19702"
+			(at 180.3401 -0.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC" "C19702"
+			(at 180.3401 -0.0001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
-			(uuid "fd36adaa-fe3f-44e5-9386-96489ef12ccf")
+			(uuid "17156998-3318-4e7f-8bea-4b1f1186441d")
 		)
 		(pin "2"
-			(uuid "b20f834e-a406-454a-b48b-b5f2f751bdbb")
+			(uuid "09dff736-0f2f-4fa5-a4df-1c8a04834d26")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1600,7 +1634,7 @@
 					(reference "C1401")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "C401")
 					(unit 1)
 				)
@@ -1632,7 +1666,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 81.788 90.17 90)
 			(effects
 				(font
@@ -1660,10 +1694,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "be40eb70-e54e-475b-868c-c6bb8ad8afd3")
+			(uuid "8af6ba6b-ee3f-42d5-9d0e-bc57e9750dd9")
 		)
 		(pin "2"
-			(uuid "aa1eaa04-1046-42a7-8fc4-86fd3ffc7f9c")
+			(uuid "833f2f15-ef82-4555-b87f-3a7ae59896bc")
 		)
 		(instances
 			(project "pcb_octoprobe"
@@ -1671,7 +1705,7 @@
 					(reference "R1401")
 					(unit 1)
 				)
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/9cc2153c-44b9-4e7f-8961-835664992a07"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/d5925032-1cd4-4041-8ae3-121df5f0e5b4"
 					(reference "R401")
 					(unit 1)
 				)

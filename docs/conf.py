@@ -82,8 +82,7 @@ html_context = {
         ProjectLink("Octoprobe: Tentacle", "https://www.octoprobe.org/tentacle/"),
         ProjectLink("Octoprobe: Octoprobe", "https://www.octoprobe.org/octoprobe/"),
         ProjectLink(
-            "Octoprobe: testbed_showcase",
-            "https://www.octoprobe.org/testbed_showcase/",
+            "Octoprobe: testbed_showcase", "https://www.octoprobe.org/testbed_showcase/"
         ),
         ProjectLink(
             "Octoprobe: testbed_micropython",

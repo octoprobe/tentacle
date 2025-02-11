@@ -30,7 +30,7 @@
 * DONE: Relay silkscreen labels on back
 * DONE: Silkscreen Add "Open Hardware"
 
-## Cost of the assembled PCB
+## Cost of the assembled PCB v0.3
 
 Online order at JLCPCB
 

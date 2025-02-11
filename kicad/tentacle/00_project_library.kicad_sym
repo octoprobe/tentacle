@@ -4703,7 +4703,7 @@
 			)
 		)
 	)
-	(symbol "W25Q128JVS"
+	(symbol "W25Q32JVS"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -4715,8 +4715,8 @@
 				)
 			)
 		)
-		(property "Value" "W25Q128JVS"
-			(at 7.62 8.89 0)
+		(property "Value" "W25Q32JVS"
+			(at 8.89 12.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4724,7 +4724,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:SOIC-8_5.23x5.23mm_P1.27mm"
-			(at 0 0 0)
+			(at -20.32 -19.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4732,8 +4732,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf"
-			(at 0 0 0)
+		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_1912210731_Winbond-Elec-W25Q32JVSSIQ_C179173.pdf"
+			(at -20.32 -25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4741,13 +4741,21 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
-			(at 0 0 0)
+		(property "Description" "32Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"
+			(at -19.05 -22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC" "C179173"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(property "ki_keywords" "flash memory SPI QPI DTR"
@@ -4768,7 +4776,7 @@
 				(hide yes)
 			)
 		)
-		(symbol "W25Q128JVS_0_1"
+		(symbol "W25Q32JVS_0_1"
 			(rectangle
 				(start -7.62 10.16)
 				(end 7.62 -10.16)
@@ -4781,7 +4789,7 @@
 				)
 			)
 		)
-		(symbol "W25Q128JVS_1_1"
+		(symbol "W25Q32JVS_1_1"
 			(pin input line
 				(at -10.16 7.62 0)
 				(length 2.54)
@@ -5169,6 +5177,188 @@
 				)
 				(fill
 					(type none)
+				)
+			)
+		)
+	)
+	(symbol "octoprobe_NetTie_USB_Differential"
+		(pin_numbers hide)
+		(pin_names
+			(offset 0) hide)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(property "Reference" "NT"
+			(at 0 1.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at -5.08 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at -5.08 -7.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 4 pins"
+			(at 6.35 -12.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "net tie short"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "Net*Tie*"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "octoprobe_NetTie_USB_Differential_0_1"
+			(polyline
+				(pts
+					(xy -1.27 -2.54) (xy 1.27 -2.794)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.27 0) (xy 1.27 0.254)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 0)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "octoprobe_NetTie_USB_Differential_1_1"
+			(pin passive line
+				(at -2.54 0 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 0 180)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 -2.54 0)
+				(length 2.54)
+				(name "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -2.54 180)
+				(length 2.54)
+				(name "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

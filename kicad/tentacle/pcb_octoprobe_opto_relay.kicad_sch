@@ -1248,7 +1248,6 @@
 	(hierarchical_label "RELAY_OUT_A"
 		(shape output)
 		(at 111.76 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1260,7 +1259,6 @@
 	(hierarchical_label "RELAY_OUT_B"
 		(shape output)
 		(at 111.76 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1272,7 +1270,6 @@
 	(hierarchical_label "RELAY_IN"
 		(shape input)
 		(at 60.96 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1568,8 +1565,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED WHITE"
-			(at 101.9175 45.085 0)
+		(property "Value" "white"
+			(at 101.9175 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1604,6 +1601,15 @@
 			)
 		)
 		(property "JLC" "C2290"
+			(at 100.33 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label" "LED_RELAYS (white)"
 			(at 100.33 49.53 0)
 			(effects
 				(font

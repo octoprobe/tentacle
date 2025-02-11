@@ -1,12 +1,12 @@
-(footprint "PinSocket_2x20_P2.54mm_Vertical-stackable_squarepad"
+(footprint "PinSocket_2x14_P2.54mm_Vertical_squarepad"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Through hole straight socket strip, 2x20, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
-	(tags "Through hole socket strip THT 2x20 2.54mm double row")
+	(descr "Through hole straight socket strip, 2x14, 2.54mm pitch, double cols (from Kicad 4.0.7), script generated")
+	(tags "Through hole socket strip THT 2x14 2.54mm double row")
 	(property "Reference" "REF**"
-		(at -1.016 -3.048 0)
+		(at -1.27 -2.77 0)
 		(layer "F.SilkS")
 		(hide yes)
 		(uuid "22c713a5-441f-4f41-8c4e-9bc744bdd528")
@@ -17,8 +17,8 @@
 			)
 		)
 	)
-	(property "Value" "PinSocket_2x20_P2.54mm_Vertical-stackable_squarepad"
-		(at -1.27 51.03 0)
+	(property "Value" "PinSocket_2x14_P2.54mm_Vertical_squarepad"
+		(at 0 36.322 0)
 		(layer "F.Fab")
 		(uuid "3192ad94-5be3-4b30-b4d6-19286ecac5a0")
 		(effects
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1c90b627-6944-420b-9113-103493db8dd6")
+		(uuid "fb0e47bd-f683-4bf6-b4b7-e309b39a6d6b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1af985b2-e0d6-49b6-a0ee-b38fc7bf10d2")
+		(uuid "6e9cdbbe-b2e0-4c46-9ed2-fadca7c247e5")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -59,7 +59,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "5d4e4ef7-8c1e-4334-98a7-76edc209f432")
+		(uuid "aa435c7f-e149-49b0-843b-6a97269cce3b")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -79,7 +79,7 @@
 		(uuid "67c8ccd1-2ea2-4236-8657-1580119928b2")
 	)
 	(fp_line
-		(start -4.34 50)
+		(start -4.34 34.76)
 		(end -4.34 -1.8)
 		(stroke
 			(width 0.05)
@@ -90,7 +90,7 @@
 	)
 	(fp_line
 		(start 1.76 -1.8)
-		(end 1.76 50)
+		(end 1.76 34.76)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -99,8 +99,8 @@
 		(uuid "3be490e9-c4ce-4bb2-bbf8-17270b1e39d6")
 	)
 	(fp_line
-		(start 1.76 50)
-		(end -4.34 50)
+		(start 1.76 34.76)
+		(end -4.34 34.76)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -119,7 +119,7 @@
 		(uuid "316a1e96-bc7b-4bcc-b1b3-1fadf7796b9d")
 	)
 	(fp_line
-		(start -3.81 49.53)
+		(start -3.75 34.29)
 		(end -3.81 -1.27)
 		(stroke
 			(width 0.1)
@@ -140,7 +140,7 @@
 	)
 	(fp_line
 		(start 1.27 -0.27)
-		(end 1.27 49.53)
+		(end 1.33 34.29)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -149,8 +149,8 @@
 		(uuid "178f73c5-d578-4cf5-8b92-870f58345337")
 	)
 	(fp_line
-		(start 1.27 49.53)
-		(end -3.81 49.53)
+		(start 1.33 34.29)
+		(end -3.75 34.29)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -160,7 +160,7 @@
 	)
 	(fp_line
 		(start -3.87 -1.33)
-		(end -3.87 49.59)
+		(end -3.87 34.29)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -179,8 +179,18 @@
 		(uuid "64da9828-be58-4eac-9d52-fd93ed861b4e")
 	)
 	(fp_line
-		(start -3.87 49.59)
-		(end 1.33 49.59)
+		(start -3.87 34.29)
+		(end 1.33 34.29)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "User.9")
+		(uuid "6dfacf0e-5d67-4e35-9dbd-4992ab1197b9")
+	)
+	(fp_line
+		(start -3.87 34.29)
+		(end 1.33 34.29)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -230,7 +240,7 @@
 	)
 	(fp_line
 		(start 1.33 1.27)
-		(end 1.33 49.59)
+		(end 1.33 34.29)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -472,124 +482,5 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "228bd7ef-a92f-4109-9033-fbda95da328a")
-	)
-	(pad "29" thru_hole rect
-		(at 0 35.56)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ec74bf1e-95ca-49e9-bc64-ed3ec1fdbe75")
-	)
-	(pad "30" thru_hole rect
-		(at -2.54 35.56)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "007b1cc5-1689-4c79-9658-cbb90707c280")
-	)
-	(pad "31" thru_hole rect
-		(at 0 38.1)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "63662ceb-86d5-470d-9211-cbf199b4b4cf")
-	)
-	(pad "32" thru_hole rect
-		(at -2.54 38.1)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ad747e81-9286-4536-bcfa-da1ee97be606")
-	)
-	(pad "33" thru_hole rect
-		(at 0 40.64)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "211a4fb4-0b00-440b-aeef-9747dab41087")
-	)
-	(pad "34" thru_hole rect
-		(at -2.54 40.64)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "d2f805c3-82c6-441b-96f5-400b5758d2ce")
-	)
-	(pad "35" thru_hole rect
-		(at 0 43.18)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "5a6a4746-4d25-4fce-9b5d-9205c27bfa97")
-	)
-	(pad "36" thru_hole rect
-		(at -2.54 43.18)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "ca132af2-91b0-47c7-9f74-d5d23b406bd0")
-	)
-	(pad "37" thru_hole rect
-		(at 0 45.72)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "cc4c00bf-bfbe-44fc-8d50-81602a1b2272")
-	)
-	(pad "38" thru_hole rect
-		(at -2.54 45.72)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "88931ee7-d892-4c1c-98a2-bc18fa4bcb37")
-	)
-	(pad "39" thru_hole rect
-		(at 0 48.26)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "1588aa39-f712-41a2-aff6-d6a42ee785e2")
-	)
-	(pad "40" thru_hole rect
-		(at -2.54 48.26)
-		(size 2 2)
-		(drill 1)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "7e9e76da-ce47-40e4-8f16-5427736e8648")
-	)
-	(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_2x20_P2.54mm_Vertical.wrl"
-		(hide yes)
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
-	(model "${KIPRJMOD}/00_project_library.pretty/PinSocket_2x20_P2.54mm_Vertical.wrl"
-		(offset
-			(xyz 0 0 3.5)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
 	)
 )

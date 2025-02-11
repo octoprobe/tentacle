@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.0
+          "min_clearance": 1.25
         }
       },
       "diff_pair_dimensions": [
@@ -601,17 +601,17 @@
       },
       {
         "bus_width": 27,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
+        "clearance": 1.27,
+        "diff_pair_gap": 0.125,
         "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
+        "diff_pair_width": 0.7,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "UsbSignal",
+        "name": "UsbDifferential",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgb(255, 0, 255)",
-        "track_width": 0.2,
+        "track_width": 0.7,
         "via_diameter": 0.4,
         "via_drill": 0.2,
         "wire_width": 27
@@ -639,10 +639,8 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/USB3_DM": "UsbSignal",
-      "/USB3_DP": "UsbSignal",
-      "RP2-USB-DM": "UsbSignal",
-      "RP2-USB-DP": "UsbSignal"
+      "/USB Hub Chip/USB_UP_D+": "UsbDifferential",
+      "/USB Hub Chip/USB_UP_D-": "UsbDifferential"
     },
     "netclass_patterns": [
       {
@@ -666,8 +664,12 @@
         "pattern": "HUB+5V"
       },
       {
-        "netclass": "Default",
-        "pattern": ""
+        "netclass": "UsbDifferential",
+        "pattern": "USB_*_D*"
+      },
+      {
+        "netclass": "UsbDifferential",
+        "pattern": "/USB_*_D*"
       }
     ]
   },
@@ -811,7 +813,7 @@
       "USB Hub Chip"
     ],
     [
-      "9cc2153c-44b9-4e7f-8961-835664992a07",
+      "d5925032-1cd4-4041-8ae3-121df5f0e5b4",
       "USB Power Switch RP2"
     ],
     [
@@ -853,6 +855,10 @@
     [
       "5d792043-9bfa-4fa6-be3c-ff15d7bc02be",
       "USB Power Switch DUT"
+    ],
+    [
+      "cd9bbde0-3ad0-43d1-a674-4a86d38bbcb3",
+      "RP2 PROBE"
     ]
   ],
   "text_variables": {}

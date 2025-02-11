@@ -22,3 +22,4 @@ Firmware. See: https://github.com/raspberrypi/debugprobe/tree/master?tab=readme-
 Pinout: See: https://www.raspberrypi.com/products/debug-probe/
 
 This is how the JTAG/SWD connector looks like: https://developer.arm.com/documentation/101636/0100/Debug-and-Trace/JTAG-SWD-Interface
+
