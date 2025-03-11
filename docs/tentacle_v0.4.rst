@@ -1,0 +1,26 @@
+Tentacle v0.4
+=========================
+
+This repo describes the hardware of a tentacle:
+
+See also: :doc:`tentacle_v0.3`
+
+Schematics
+----------
+
+:download:`Schematics v0.4 (Pdf) <../kicad/tentacle/production_v0.4/schematics.pdf>`.
+
+PCB
+---
+:doc:`Parts list <pcb/bom>`
+
+The assembled PCB may be ordered at https://www.jclpcb.com. The production files are located here: `kicad/kicad_tentacle_v0.4/production_v0.4`.
+
+The price of a assembled PCB is ~USD12 when ordering 30 pieces.
+
+The tentacle is described in more detail in :external+octoprobe:doc:`Octprobe <README>`
+
+
+.. image:: tentacle_images/tentacle_intro_v0.4.drawio.png
+
+

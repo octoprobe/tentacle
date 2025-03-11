@@ -1,4 +1,4 @@
-Octoprobe: Tentacle
+Tentacle v0.3
 ===================
 
 This repo describes the hardware of a tentacle:
@@ -6,7 +6,7 @@ This repo describes the hardware of a tentacle:
 Schematics
 ----------
 
-:download:`Schematics (Pdf) <../kicad/tentacle/production_v0.3/schematics.pdf>`.
+:download:`Schematics v0.3 (Pdf) <../kicad/tentacle/production_v0.3/schematics.pdf>`.
 
 PCB
 ---
@@ -19,9 +19,7 @@ The price of a assembled PCB is ~USD10 when ordering 30 pieces.
 The tentacle is described in more detail in :external+octoprobe:doc:`Octprobe <README>`
 
 
-.. image:: tentacle_images/tentacle_intro.drawio.png
-
-.. .. image:: ../kicad/kicad_tentacle_v0.3/production_v0.3/pcb_top_3D.png
+.. image:: tentacle_images/tentacle_intro_v0.3.drawio.png
 
 
 
