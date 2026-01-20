@@ -817,7 +817,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3057,7 +3057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 245.11 114.3 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 121.92 114.3 0)
 			(effects
 				(font

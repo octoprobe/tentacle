@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1937,6 +1937,26 @@
 					(hide yes)
 				)
 			)
+			(property private "KLC_S3.3" "The rectangle is not a symbol body but a graphical element"
+				(at 0 -12.7 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property private "KLC_S4.1" "Some pins are on 50mil grid to make the symbol small"
+				(at 0 -15.24 0)
+				(show_name)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "quartz ceramic resonator oscillator"
 				(at 0 0 0)
 				(effects
@@ -2017,18 +2037,6 @@
 				)
 				(polyline
 					(pts
-						(xy 0 3.556) (xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
 						(xy 0 -3.81) (xy 0 -3.556)
 					)
 					(stroke
@@ -2084,9 +2092,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 5.08 270)
+					(at 0 -5.08 90)
 					(length 1.27)
-					(name "2"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2104,7 +2112,8 @@
 				(pin passive line
 					(at 0 -5.08 90)
 					(length 1.27)
-					(name "4"
+					(hide yes)
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5637,77 +5646,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 118.11 176.53 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a2fb197-6185-4640-91c0-ccd18da4a262")
-		(property "Reference" "#PWR0316"
-			(at 124.46 176.53 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.7422 176.403 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 118.11 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f607e3c-60ae-4324-a303-70d55c4fdf3b")
-		)
-		(instances
-			(project "pcb_octohub"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
-					(reference "#PWR0316")
-					(unit 1)
-				)
-			)
-			(project "pcb_octohub"
-				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
-					(reference "#PWR01106")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:HUB+5V")
 		(at 93.98 33.02 270)
 		(unit 1)
@@ -6099,7 +6037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2403291504_YXC-X322524MOB4SI_C70590.pdf"
+		(property "Datasheet" "~"
 			(at 113.03 176.53 0)
 			(effects
 				(font
@@ -7520,7 +7458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 30.48 123.19 0)
 			(effects
 				(font

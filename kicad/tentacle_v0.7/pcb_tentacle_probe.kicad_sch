@@ -303,7 +303,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -330,7 +330,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLC" "C2290"
+			(property "JLC" "C34499"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3061,156 +3061,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_Schottky"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "D_Schottky"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Schottky diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Schottky_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Schottky_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -4352,7 +4202,7 @@
 		(uuid "298c3256-0526-4f78-9562-2a801297f9ab")
 	)
 	(junction
-		(at 179.07 95.25)
+		(at 194.31 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2fe549e7-bec2-40eb-9c60-6a44935e229d")
@@ -4891,6 +4741,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 95.25) (xy 224.79 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2efe4b41-a72f-4cad-9431-e5d863120abe")
+	)
+	(wire
+		(pts
 			(xy 68.58 34.29) (xy 68.58 31.75)
 		)
 		(stroke
@@ -5201,7 +5061,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 81.28) (xy 179.07 82.55)
+			(xy 194.31 81.28) (xy 194.31 82.55)
 		)
 		(stroke
 			(width 0)
@@ -5311,16 +5171,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 95.25) (xy 207.01 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73cfc17f-114c-47e4-8f76-e25b6d4a65ab")
-	)
-	(wire
-		(pts
 			(xy 81.28 34.29) (xy 81.28 31.75)
 		)
 		(stroke
@@ -5401,7 +5251,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 95.25) (xy 179.07 95.25)
+			(xy 186.69 95.25) (xy 194.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5411,7 +5261,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 90.17) (xy 179.07 95.25)
+			(xy 194.31 90.17) (xy 194.31 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5491,7 +5341,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 95.25) (xy 187.96 95.25)
+			(xy 194.31 95.25) (xy 207.01 95.25)
 		)
 		(stroke
 			(width 0)
@@ -5518,16 +5368,6 @@
 			(type default)
 		)
 		(uuid "9d32af07-62c3-4f03-b215-eb443188b766")
-	)
-	(wire
-		(pts
-			(xy 214.63 95.25) (xy 224.79 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9dc57914-814f-48d9-a351-774ff03f0c98")
 	)
 	(wire
 		(pts
@@ -5831,7 +5671,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 71.12) (xy 179.07 73.66)
+			(xy 194.31 71.12) (xy 194.31 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7229,7 +7069,7 @@
 	)
 	(global_label "RP2_PROBE_BOOT"
 		(shape input)
-		(at 171.45 95.25 180)
+		(at 186.69 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7239,7 +7079,7 @@
 		)
 		(uuid "bb1ead31-0c83-4231-a972-502eee46eea7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 151.4969 95.25 0)
+			(at 166.7369 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7596,7 +7436,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:+3V3infra")
-		(at 179.07 71.12 0)
+		(at 194.31 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7605,7 +7445,7 @@
 		(fields_autoplaced yes)
 		(uuid "03410314-ba73-4f63-9662-b703fc93eba7")
 		(property "Reference" "#PWR0238"
-			(at 179.07 74.93 0)
+			(at 194.31 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7614,7 +7454,7 @@
 			)
 		)
 		(property "Value" "+3V3infra"
-			(at 179.07 66.04 0)
+			(at 194.31 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7622,7 +7462,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 71.12 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7631,7 +7471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 71.12 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7640,7 +7480,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3infra\""
-			(at 179.07 71.12 0)
+			(at 194.31 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8037,7 +7877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -8055,7 +7895,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -8064,7 +7904,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2290"
+		(property "JLC" "C34499"
 			(at 128.27 60.96 0)
 			(effects
 				(font
@@ -9086,82 +8926,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Schottky")
-		(at 191.77 95.25 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56a6f191-930b-4dd2-a68c-9c1d33e67314")
-		(property "Reference" "D1501"
-			(at 191.4525 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "B5819W SL"
-			(at 191.4525 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-123"
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_Jiangsu-Changjing-Electronics-Technology-Co---Ltd--B5819W-SL_C8598.pdf"
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC" "C8598"
-			(at 191.77 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f9b7dcd5-a3e5-496a-bc6f-3cb9b2d693f0")
-		)
-		(pin "2"
-			(uuid "bb01a925-e5ca-43c0-826e-6d248dab3bc2")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cd9bbde0-3ad0-43d1-a674-4a86d38bbcb3"
-					(reference "D1501")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:W25Q32JVS")
 		(at 262.89 102.87 0)
 		(unit 1)
@@ -9470,7 +9234,7 @@
 				)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "1k"
 			(at 210.82 95.3516 90)
 			(effects
 				(font
@@ -9652,7 +9416,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 179.07 86.36 0)
+		(at 194.31 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9660,7 +9424,7 @@
 		(dnp no)
 		(uuid "7cf8ab18-024e-48be-a93c-470ad719717a")
 		(property "Reference" "R1506"
-			(at 176.022 86.36 90)
+			(at 191.262 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9668,7 +9432,7 @@
 			)
 		)
 		(property "Value" "2k2"
-			(at 179.1716 86.36 90)
+			(at 194.4116 86.36 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -9676,7 +9440,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 177.292 86.36 90)
+			(at 192.532 86.36 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9685,7 +9449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 86.36 0)
+			(at 194.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9694,7 +9458,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 86.36 0)
+			(at 194.31 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11057,7 +10821,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:LED WHITE")
-		(at 179.07 77.47 90)
+		(at 194.31 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11065,7 +10829,7 @@
 		(dnp no)
 		(uuid "fc6c3ba3-539a-492b-88f4-100b050c9b29")
 		(property "Reference" "D1502"
-			(at 175.768 77.216 0)
+			(at 191.008 77.216 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11073,7 +10837,7 @@
 			)
 		)
 		(property "Value" "white"
-			(at 175.26 79.0575 0)
+			(at 190.5 79.0575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11081,8 +10845,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
-			(at 179.07 77.47 0)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11091,7 +10855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 179.07 77.47 0)
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11099,8 +10863,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 77.47 0)
+		(property "Description" "Light emitting diode"
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11108,8 +10872,8 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2290"
-			(at 179.07 77.47 0)
+		(property "JLC" "C34499"
+			(at 194.31 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11118,7 +10882,7 @@
 			)
 		)
 		(property "Label" "LED_BOOT (white)"
-			(at 172.72 77.47 0)
+			(at 187.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)

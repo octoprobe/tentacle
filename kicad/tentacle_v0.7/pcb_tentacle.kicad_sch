@@ -289,7 +289,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -316,7 +316,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLC" "C2290"
+			(property "JLC" "C34499"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2195,7 +2195,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -2213,7 +2213,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -2222,7 +2222,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2290"
+		(property "JLC" "C34499"
 			(at 109.22 67.31 0)
 			(effects
 				(font

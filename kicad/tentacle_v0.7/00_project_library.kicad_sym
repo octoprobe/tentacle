@@ -885,7 +885,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -912,7 +912,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C189307"
+		(property "JLC" "C2293"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1068,7 +1068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1251,7 +1251,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1278,7 +1278,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2286"
+		(property "JLC" "C2295"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1434,7 +1434,7 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 0 0 0)
 			(effects
 				(font
@@ -1461,7 +1461,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2290"
+		(property "JLC" "C34499"
 			(at 0 0 0)
 			(effects
 				(font

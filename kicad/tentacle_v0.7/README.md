@@ -29,3 +29,19 @@
  * 2 level shifters
  * LED for proberun and probeboot
  * DUT was powerered 3V3, now 5V
+
+## History v0.6 -> v0.7
+
+ * Rename all project files 'pcb_octoprobe' -> 'pcb_tentacle'
+ 
+ * Remove D1501
+ * R1503 0R -> 1K
+ * LED_BLUE D201 is an extended part (C189307) - replace by basic part (C2293)
+ * LED_BLUE `LED_0603_1608Metric` -> `LED_SMD:LED_0805_2012Metric`
+ * LED_GREEN `LED_0603_1608Metric` -> `LED_SMD:LED_0805_2012Metric`
+ * LED_RED `LED_0603_1608Metric` -> `LED_SMD:LED_0805_2012Metric`
+ * LED_RED C2286 -> C2295
+ * LED_WHITE `LED_0603_1608Metric` -> `LED_SMD:LED_0805_2012Metric`
+ * LED_WHITE C2290 -> C34499
+
+

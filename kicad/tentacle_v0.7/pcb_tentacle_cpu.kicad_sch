@@ -428,7 +428,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -455,7 +455,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLC" "C189307"
+			(property "JLC" "C2293"
 				(at 0 0 0)
 				(effects
 					(font
@@ -611,7 +611,7 @@
 					)
 				)
 			)
-			(property "Footprint" "00_project_library:LED_0603_1608Metric"
+			(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 				(at 0 0 0)
 				(effects
 					(font
@@ -7152,7 +7152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "00_project_library:LED_0603_1608Metric"
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -7170,7 +7170,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -7179,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2286"
+		(property "JLC" "C2297"
 			(at 165.1 148.59 0)
 			(effects
 				(font
@@ -8719,7 +8719,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Light emitting diode"
 			(at 184.15 148.59 0)
 			(effects
 				(font
@@ -8728,7 +8728,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C189307"
+		(property "JLC" "C2293"
 			(at 184.15 148.59 0)
 			(effects
 				(font
