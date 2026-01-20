@@ -5443,16 +5443,16 @@
 		(uuid "fa6c843d-d335-42f6-959a-03baed08da3d")
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 180.34 114.3 0)
+		(lib_id "power:+3V3")
+		(at 180.34 114.3 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "07527faa-1e45-4bbb-81fa-76ca48322cb5")
-		(property "Reference" "#PWR0324"
-			(at 180.34 120.65 0)
+		(uuid "00803c0d-4445-4015-b6fe-6f05deebc31b")
+		(property "Reference" "#PWR0241"
+			(at 180.34 110.49 0)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5460,8 +5460,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 180.467 117.9322 0)
+		(property "Value" "+3V3"
+			(at 180.34 120.396 90)
 			(effects
 				(font
 					(size 0.8 0.8)
@@ -5486,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 180.34 114.3 0)
 			(effects
 				(font
@@ -5496,12 +5496,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "793a6010-a25a-4d84-a22c-fb56dfac31d5")
+			(uuid "6c408669-2b23-44db-a745-5574e0e39c07")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
-					(reference "#PWR0324")
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Value" "100k"
+		(property "Value" "10k"
 			(at 180.34 110.49 90)
 			(effects
 				(font

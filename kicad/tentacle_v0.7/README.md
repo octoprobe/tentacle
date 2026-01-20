@@ -45,3 +45,6 @@
  * LED_WHITE C2290 -> C34499
 
 
+ * HUB U302: CFG_SEL[1]
+   * Before GND: Self-powered operation enabled
+   * Now +3V3: Bus-powered operation
