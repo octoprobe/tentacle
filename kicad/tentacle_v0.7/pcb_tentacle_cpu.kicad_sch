@@ -3269,7 +3269,7 @@
 	)
 	(text "0x08 hw_version"
 		(exclude_from_sim no)
-		(at 134.62 96.266 0)
+		(at 134.112 96.774 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3280,7 +3280,7 @@
 	)
 	(text "0x01 hw_version"
 		(exclude_from_sim no)
-		(at 135.128 104.14 0)
+		(at 134.62 104.648 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3291,7 +3291,7 @@
 	)
 	(text "0x16 hw_version"
 		(exclude_from_sim no)
-		(at 134.62 93.726 0)
+		(at 134.112 94.234 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3302,7 +3302,7 @@
 	)
 	(text "0x04 hw_version"
 		(exclude_from_sim no)
-		(at 134.6161 98.806 0)
+		(at 134.1081 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3313,7 +3313,7 @@
 	)
 	(text "0x02 hw_version"
 		(exclude_from_sim no)
-		(at 134.874 101.346 0)
+		(at 134.366 101.854 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3346,9 +3346,9 @@
 		)
 		(uuid "7dc724a4-6f8b-49c3-8db8-b608e9a15d1c")
 	)
-	(text "HW version: 0x02"
+	(text "HW version: 0x03"
 		(exclude_from_sim no)
-		(at 134.366 107.696 0)
+		(at 133.858 108.204 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3478,10 +3478,10 @@
 		(uuid "0cbca795-4045-4c88-8938-3464bdf6d25f")
 	)
 	(junction
-		(at 129.54 104.14)
+		(at 132.08 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "1040c88c-29e2-469d-99f9-2036d798e29c")
+		(uuid "2109c0fd-1fce-4fb8-a91f-931f192e4a3d")
 	)
 	(junction
 		(at 129.54 96.52)
@@ -3729,7 +3729,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 129.54 104.14)
+			(xy 124.46 104.14) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4059,7 +4059,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 101.6) (xy 132.08 115.57)
+			(xy 132.08 101.6) (xy 132.08 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4659,16 +4659,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 104.14) (xy 129.54 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a22da541-2ab3-4427-b515-e428bbdef6a5")
-	)
-	(wire
-		(pts
 			(xy 82.55 30.48) (xy 87.63 30.48)
 		)
 		(stroke
@@ -4709,13 +4699,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 99.06) (xy 129.54 104.14)
+			(xy 129.54 99.06) (xy 129.54 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "abace210-7c08-4c14-ad33-b2716c4ab33d")
+		(uuid "abeb590d-0851-4c4d-8821-db28bc924ea2")
 	)
 	(wire
 		(pts
@@ -5116,6 +5106,16 @@
 			(type default)
 		)
 		(uuid "e6be0c12-8733-4701-bec9-0b4de01144e4")
+	)
+	(wire
+		(pts
+			(xy 132.08 104.14) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f1c943-9aa4-462f-b8a5-94f37a02efa7")
 	)
 	(wire
 		(pts
