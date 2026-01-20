@@ -38,3 +38,14 @@ The same with micropython code:
 When PICO_PROBE is running and now QSPI_SS is pulled down: WSPI_SS will power back so that RP2_PROBE_BOOT will only go to 1V, but should go to 0V.
 
 Replacing R1503 0R with 1K will eliminate the problem.
+
+
+## USB Hub
+
+The tentacle is Bus-Powered.
+
+Datasheet https://ww1.microchip.com/downloads/en/DeviceDoc/00001692C.pdf states that CFG_SEL[1] should be 1 for "Bus-powerered operation". However the current version is 0.
+
+## LEDs
+
+Compare LED_GREEN and LED_RED. Verify wether there physical size is correct.

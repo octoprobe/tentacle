@@ -29,7 +29,3 @@
  * 2 level shifters
  * LED for proberun and probeboot
  * DUT was powerered 3V3, now 5V
-
-## History v0.6 -> v0.7
-
- * `(project "pcb_octoprobe"` -> `(project "pcb_tentacle"`
