@@ -48,3 +48,6 @@
  * HUB U302: CFG_SEL[1]
    * Before GND: Self-powered operation enabled
    * Now +3V3: Bus-powered operation
+
+ * Allows to replace PICO_PROBE with a mcu connected wia soldered USB. USB pads have been added.
+ 

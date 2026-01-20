@@ -12,6 +12,131 @@
 		(comment 1 "The MIT License (MIT)")
 	)
 	(lib_symbols
+		(symbol "00_project_library:+5Vbuf"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+5Vbuf"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+5Vbuf_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+5Vbuf_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "00_project_library:+5Vdut"
 			(power)
 			(pin_numbers
@@ -622,6 +747,113 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "00_project_library:octoprobe_breakout_BP"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "BP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "octoprobe_prototype_board"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Octoprobe Prototype Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Testpoint According to Roth Elektronik Prototyping Board"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "octoprobe_breakout_BP_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "octoprobe_breakout_BP_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1314,10 +1546,22 @@
 		(uuid "cd2ff2ea-c763-4013-b130-2b1d5e7bd0c5")
 	)
 	(junction
+		(at 118.11 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9590ed7d-b64e-4a33-bef1-6fca68eeaf99")
+	)
+	(junction
 		(at 125.73 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abae14bc-4014-46ff-bcb1-b318e6dc48c5")
+	)
+	(junction
+		(at 118.11 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c63c5e9a-9834-443d-8c26-e1f88a2af046")
 	)
 	(junction
 		(at 92.71 77.47)
@@ -1328,10 +1572,6 @@
 	(no_connect
 		(at 53.34 67.31)
 		(uuid "1e53d80a-6ed9-4f20-b6ea-51ae0deeb506")
-	)
-	(no_connect
-		(at 53.34 147.32)
-		(uuid "423bb31d-4adc-416f-bb1a-63e505c0547d")
 	)
 	(no_connect
 		(at 53.34 64.77)
@@ -1423,6 +1663,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 142.24) (xy 125.73 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358d6523-59b7-4aa9-8d11-46e4e2c8350c")
+	)
+	(wire
+		(pts
 			(xy 92.71 77.47) (xy 99.06 77.47)
 		)
 		(stroke
@@ -1490,6 +1740,16 @@
 			(type default)
 		)
 		(uuid "75d67776-5546-43ff-b63d-ab8074620096")
+	)
+	(wire
+		(pts
+			(xy 133.35 144.78) (xy 137.16 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880a3c4b-ba4c-47a3-b7c5-0a0c4b8eed7d")
 	)
 	(wire
 		(pts
@@ -1573,6 +1833,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 142.24) (xy 137.16 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a94d0cd8-d011-4116-90fb-adb0909d20e1")
+	)
+	(wire
+		(pts
 			(xy 114.3 39.37) (xy 130.81 39.37)
 		)
 		(stroke
@@ -1633,7 +1903,17 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 144.78) (xy 132.08 144.78)
+			(xy 118.11 144.78) (xy 125.73 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7cd4ef3-bc48-4513-992f-bb0f752ff8be")
+	)
+	(wire
+		(pts
+			(xy 115.57 144.78) (xy 118.11 144.78)
 		)
 		(stroke
 			(width 0)
@@ -1653,7 +1933,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 142.24) (xy 132.08 142.24)
+			(xy 115.57 142.24) (xy 118.11 142.24)
 		)
 		(stroke
 			(width 0)
@@ -1765,7 +2045,7 @@
 	)
 	(global_label "_USB_PROBE_D-"
 		(shape output)
-		(at 132.08 142.24 0)
+		(at 137.16 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1775,7 +2055,7 @@
 		)
 		(uuid "2819823e-e9d0-4411-83a3-78a60883a454")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9164 142.24 0)
+			(at 154.9964 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +2067,7 @@
 	)
 	(global_label "_USB_PROBE_D+"
 		(shape output)
-		(at 132.08 144.78 0)
+		(at 137.16 144.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1797,7 +2077,7 @@
 		)
 		(uuid "4756ee0b-d218-4597-940c-7cd18c811f04")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.9164 144.78 0)
+			(at 154.9964 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1870,6 +2150,73 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 158.75 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "010207bd-81e7-46be-bb3a-11039caa1ab7")
+		(property "Reference" "BP223"
+			(at 161.29 139.1919 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_PROBE_5V"
+			(at 161.29 141.7319 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 153.67 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b00bbc1-5b8d-480b-abb6-f096f225b2fb")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP223")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -2039,7 +2386,7 @@
 		(dnp no)
 		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
 		(property "Reference" "NT102"
-			(at 113.03 147.32 0)
+			(at 112.014 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2164,6 +2511,271 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "#PWR0234")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:+5Vbuf")
+		(at 158.75 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f886113-3237-4ea1-ae44-0d781dd338b0")
+		(property "Reference" "#PWR0244"
+			(at 158.75 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5Vbuf"
+			(at 158.75 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 158.75 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c95db31c-c17f-40d1-a57e-7c51fc89cabc")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 118.11 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d1dc4c2-623a-4f85-8c3b-99d76ab93015")
+		(property "Reference" "BP220"
+			(at 115.062 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PROBE_D-"
+			(at 115.316 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 123.19 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 118.11 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "00258afd-e11a-4e33-adec-6b3ea73db90f")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 142.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6d480943-acba-437f-ac03-a9715a4b225a")
+		(property "Reference" "R220"
+			(at 129.54 139.954 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 129.54 142.3416 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 140.462 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "aee6edc7-567a-4158-8519-1b804ac38011")
+		)
+		(pin "2"
+			(uuid "c5b4becb-5459-4543-9678-a42b1bf6e62a")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "R220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 118.11 144.78 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "7187a973-393b-42c7-bdd6-b43f99ca1fcd")
+		(property "Reference" "BP221"
+			(at 115.824 150.622 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_PROBE_D+"
+			(at 115.824 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 113.03 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 118.11 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d95f87ca-d048-45c1-813b-094da7598845")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP221")
 					(unit 1)
 				)
 			)
@@ -2330,6 +2942,73 @@
 		)
 	)
 	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 158.75 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7490b838-7001-45e7-9294-6812eeb95dd2")
+		(property "Reference" "BP224"
+			(at 161.29 145.2879 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PROBE_GND"
+			(at 161.29 147.8279 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 163.83 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fc94583e-402c-404a-ae0d-8fac730192a2")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP224")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
 		(at 111.76 36.83 0)
 		(mirror y)
@@ -2405,6 +3084,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 158.75 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a0bfff0f-94e8-4186-940e-ded1b438be0b")
+		(property "Reference" "#PWR0242"
+			(at 158.75 156.21 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.877 153.4922 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1b89026e-cc2d-44e6-b9e3-059277e20e2a")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0242")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00_project_library:HUB+5V")
 		(at 116.84 67.31 270)
 		(unit 1)
@@ -2464,6 +3208,73 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 53.34 147.32 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c86f88cf-d177-4896-9d56-38a041363559")
+		(property "Reference" "BP222"
+			(at 58.42 146.0499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PROBE_PWR"
+			(at 58.42 148.5899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 53.34 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 53.34 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09d4bb39-4b0c-4ff5-a70a-e0e2c1f255fb")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP222")
 					(unit 1)
 				)
 			)
@@ -2810,6 +3621,73 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "NT103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 129.54 144.78 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8c0728b-b1ab-4a78-8acc-d949e36dde80")
+		(property "Reference" "R221"
+			(at 129.54 147.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 129.54 144.8816 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 129.54 143.002 90)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 129.54 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14b8c95-995a-4b6c-a6c4-f2d68563ec42")
+		)
+		(pin "2"
+			(uuid "72c878c2-8b69-4876-9959-9a7ab65786e3")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "R221")
 					(unit 1)
 				)
 			)

@@ -1,5 +1,5 @@
-Tentacle v0.6 (10 pieces produced)
-=====================================
+Tentacle v0.7 (recommended, 30 pieces produced)
+=============================
 
 This repo describes the hardware of a tentacle:
 
@@ -8,7 +8,7 @@ See also: :doc:`tentacle_v0.3`
 Schematics
 ----------
 
-:download:`Schematics v0.6 (Pdf) <../kicad/tentacle_v0.6/production_v0.6/schematics_tentacle_v0.6.pdf>`.
+:download:`Schematics v0.7 (Pdf) <../kicad/tentacle_v0.7/production_v0.7/schematics_tentacle_v0.7.pdf>`.
 
 PCB
 ---

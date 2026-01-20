@@ -68,7 +68,7 @@ Tooling holes: `Added by Customer`
 Accept these warnings:
 ```
 The below parts won't be assembled due to data missing.
-J1501,J1303,J202,UR701,UR601,J201,C216,J501,UR901,UR801,UR1101,J1502,UR1201,UR1001 designators don't exist in the BOM file.
+J1501,J1303,J202,UR701,UR601,J201,C216,J501,UR901,UR801,U1503,UR1101,U1504,J1502,UR1201,UR1001 designators don't exist in the BOM file.
 ```
 
 BOM

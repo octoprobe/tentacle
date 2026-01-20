@@ -584,7 +584,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "00_project_library:LED GREEN"
+		(symbol "00_project_library:LED RED"
 			(pin_numbers
 				(hide yes)
 			)
@@ -603,7 +603,7 @@
 					)
 				)
 			)
-			(property "Value" "LED GREEN"
+			(property "Value" "LED RED"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -638,7 +638,7 @@
 					(hide yes)
 				)
 			)
-			(property "JLC" "C2297"
+			(property "JLC" "C2295"
 				(at 0 0 0)
 				(effects
 					(font
@@ -665,7 +665,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LED GREEN_0_1"
+			(symbol "LED RED_0_1"
 				(polyline
 					(pts
 						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
@@ -727,7 +727,7 @@
 					)
 				)
 			)
-			(symbol "LED GREEN_1_1"
+			(symbol "LED RED_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -7127,7 +7127,7 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:LED GREEN")
+		(lib_id "00_project_library:LED RED")
 		(at 165.1 148.59 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7179,7 +7179,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC" "C2297"
+		(property "JLC" "C2295"
 			(at 165.1 148.59 0)
 			(effects
 				(font
