@@ -50,4 +50,21 @@
    * Now +3V3: Bus-powered operation
 
  * Allows to replace PICO_PROBE with a mcu connected wia soldered USB. USB pads have been added.
- 
+
+## History v0.7 -> v0.7 2026-01-04
+
+ * PCB -> File -> Board Setup -> Design Rules -> Pre-defined Sizes -> Vias
+   | Label | Before | New |
+   | - | - | - |
+   | Diameter | 0.4mm | 0.45mm |
+   | Hole | 0.2mm | 0.3mm |
+
+ * PCB -> File -> Board Setup -> Design Rules -> Constraints -> Minimum through hole
+
+   * 0.2mm Before
+   * 0.3mm New
+
+ * PCB -> File -> Board Setup -> Design Rules -> Constraints -> Minimum annular width
+
+   * 0.1mm Before
+   * 0.075mm New
