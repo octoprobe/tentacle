@@ -6119,7 +6119,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:Texas_RHH0036C_VQFN-36-1EP_6x6mm_P0.5mm_EP4.4x4.4mm_ThermalVias"
+		(property "Footprint" "00_project_library:Texas_RHH0036C_VQFN-36-1EP_6x6mm_P0.5mm_EP4.4x4.4mm_ThermalVias"
 			(at 245.11 114.3 0)
 			(effects
 				(font
