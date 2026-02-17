@@ -8,9 +8,9 @@ Apart from the assembled PCB, these parts are required for a fully functional te
    :header-rows: 1
 
    * - Count
-     - Part
+     - Image
      - Manufacturer
-     - Part
+     - Description
    * - 2
      - bolzone_uno
 
@@ -102,3 +102,11 @@ Apart from the assembled PCB, these parts are required for a fully functional te
        W30: thin, can it be looped through the prototype board holes?
 
        W26: good thickness
+
+   * - optional
+     - .. image:: bom_images/usb_cable_a_c.jpg
+     - Many
+     - USB A to C cables to connect tentacle to the hub
+     
+       0.5m or 1m
+       https://de.aliexpress.com/item/1005005912696845.html
