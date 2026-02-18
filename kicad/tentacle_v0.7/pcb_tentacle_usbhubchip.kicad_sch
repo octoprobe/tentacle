@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Octoprobe tentacle")
-		(date "2026-01-20")
-		(rev "0.7")
+		(date "2026-02-18")
+		(rev "0.7.1")
 		(company "Hans Märki, Märki Informatik")
 		(comment 1 "The MIT License (MIT)")
 	)
@@ -5443,71 +5443,6 @@
 		(uuid "fa6c843d-d335-42f6-959a-03baed08da3d")
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 180.34 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00803c0d-4445-4015-b6fe-6f05deebc31b")
-		(property "Reference" "#PWR0241"
-			(at 180.34 110.49 0)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 180.34 120.396 90)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 180.34 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6c408669-2b23-44db-a745-5574e0e39c07")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
-					(reference "#PWR0241")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 254 41.91 0)
 		(unit 1)
@@ -6427,6 +6362,71 @@
 			(project "pcb_octohub"
 				(path "/71f22cdd-d2e8-428f-a493-ba818011117e/cce2caaa-8f81-464b-90dc-a65beb95ce6e/905a4e11-6f14-4a1c-9cfb-b7581f2e2845"
 					(reference "C1104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 180.34 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2d336ce4-f70b-4fb9-a80f-a24422558a18")
+		(property "Reference" "#PWR0241"
+			(at 180.34 120.65 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.467 117.9322 0)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 180.34 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0552a71-403b-4ee7-bce6-df1a924777f1")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3"
+					(reference "#PWR0241")
 					(unit 1)
 				)
 			)
@@ -8378,7 +8378,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "100k"
 			(at 180.34 110.49 90)
 			(effects
 				(font

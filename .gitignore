@@ -10,5 +10,5 @@ kicad/tentacle_v*/pcb_octoprobe-backups/*
 kicad/tentacle_v*/pcb_octoprobe.kicad_sch-bak
 kicad/tentacle_v*/pcb_tentacle-backups/*
 kicad/tentacle_v*/pcb_tentacle.kicad_sch-bak
-kicad/tentacle_v*/production/backups
+kicad/tentacle_v*/production/**
 kicad/tentacle_v*/replicate_layout.log

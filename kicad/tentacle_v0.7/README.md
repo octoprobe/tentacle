@@ -68,3 +68,16 @@
 
    * 0.1mm Before
    * 0.075mm New
+
+## History v0.7 -> v0.7.1 2026-02-18
+
+Bug: [README_insufficient_bus_power.md](./README_insufficient_bus_power.md)
+
+* U302 (hub) CFG_SEL
+
+  * Before: connected to +3V3
+  * After: connected to GND
+
+* J201 Conn_02x05
+
+  * Silkscreen with wrong GPIO numbers
