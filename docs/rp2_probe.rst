@@ -4,7 +4,7 @@ Design of RP2 Probe
 The CPU `RP2 Probe` may be used to probe the DUT.
 Depending on the use case, one of the following firmwares may be used:
 
-* picoprobe: debugprobe_on_pico.uf2/board_pico_config.h
+* debugprobe: debugprobe_on_pico.uf2/board_pico_config.h
 * yapicoprobe: https://github.com/rgrr/yapicoprobe
 * sigrok: https://github.com/pico-coder
 * ula: https://github.com/dotcypress/ula
@@ -14,8 +14,8 @@ Depending on the use case, one of the following firmwares may be used:
    :width: 50%
    :header-rows: 1
 
-   * - GPIO
-     - picoprobe
+   * - GPIO\_PROBE\_
+     - debugprobe
      - yapicoprobe
      - sigrok
      - ula

@@ -1,6 +1,6 @@
-# PicoProbe (Picoprobe and pico_2)
+# debugprobe (debugprobe and pico_2)
 
-### Pin assignements for picoprobe hardware (not elected)
+### Pin assignements for debugprobe hardware (not elected)
 
 | # | CHAN_ | RP2 |
 | - | - | - |

@@ -6,7 +6,7 @@
 * https://www.linkedin.com/in/reinhard-griech-6b642295/
 
 
-* Positive: Picoprobe with reset signal
+* Positive: debugprobe with reset signal
 
   https://github.com/rgrr/yapicoprobe/blob/master/include/boards/pico.h
   #define PROBE_PIN_RESET 6

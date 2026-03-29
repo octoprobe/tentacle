@@ -1,7 +1,7 @@
 Design of RP2 Probe (Obsolete)
 ===============================
 
-* picoprobe: debugprobe_on_pico.uf2/board_pico_config.h
+* debugprobe: debugprobe_on_pico.uf2/board_pico_config.h
 * yapicoprobe: https://github.com/rgrr/yapicoprobe
 * sigrok: https://github.com/pico-coder
 * ula: https://github.com/dotcypress/ula
@@ -14,7 +14,7 @@ Design of RP2 Probe (Obsolete)
 
    * - GPIO
      - LABEL
-     - picoprobe
+     - debugprobe
      - yapicoprobe
      - sigrok
      - ula

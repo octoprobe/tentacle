@@ -6,13 +6,13 @@
 
 ### Chat GPT
 
-Q: I need a voltage level shifter for a picoprobe running swd.
+Q: I need a voltage level shifter for a debugprobe running swd.
 
 ```text
-For a picoprobe running SWD (Serial Wire Debug), you often need a voltage level shifter to safely translate signal levels between the debugger (like the Raspberry Pi Pico) and the target device. Here's what you should consider:
+For a debugprobe running SWD (Serial Wire Debug), you often need a voltage level shifter to safely translate signal levels between the debugger (like the Raspberry Pi Pico) and the target device. Here's what you should consider:
 
 ### Requirements for a Level Shifter in SWD:
-1. **Voltage Range**: Ensure it supports the voltage levels of both the target device and the picoprobe (typically 1.8V to 5V).
+1. **Voltage Range**: Ensure it supports the voltage levels of both the target device and the debugprobe (typically 1.8V to 5V).
 2. **Speed**: SWD signals can operate at high frequencies, so the level shifter should support fast signal transitions (at least 10 MHz is typical for SWD).
 3. **Directionality**: SWD primarily requires bidirectional level shifting for the **SWDIO** line and unidirectional for **SWCLK**.
 4. **Low Propagation Delay**: For reliable debugging, the level shifter must introduce minimal delay.
@@ -38,7 +38,7 @@ For a picoprobe running SWD (Serial Wire Debug), you often need a voltage level 
 - **SWDIO**: Use a bidirectional level shifter (e.g., TXS0102).
 
 ### Additional Notes:
-- If your target device operates at 3.3V and the picoprobe also operates at 3.3V, you may not need a level shifter at all.
+- If your target device operates at 3.3V and the debugprobe also operates at 3.3V, you may not need a level shifter at all.
 - Ensure pull-up resistors are properly configured on the SWDIO and SWCLK lines if required by your setup.
 
 Let me know if you'd like a specific schematic or further advice!
