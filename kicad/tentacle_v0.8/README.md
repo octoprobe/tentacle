@@ -81,3 +81,8 @@ Bug: [README_insufficient_bus_power.md](./README_insufficient_bus_power.md)
 * J201 Conn_02x05
 
   * Silkscreen with wrong GPIO numbers
+
+## History v0.7.1 -> v0.8.0 2026-07-12
+
+* PCB C217/1uF
+  * 0402 -> 0805
