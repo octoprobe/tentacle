@@ -59,7 +59,7 @@ Rename production folder and add version number
 
 Schematics, Menu `File -> Print`, check 'Print drawing sheet - Color`, `Print`, `All Pages`, `Print to File`.
 
-Move `~/Documents/output.pdf` to `hardware/octoprobe_kicad_v0.1/production_v0.1/schematics_tentacle_v0.1.pdf`
+Move `~/Documents/output.pdf` to `kicad/tentacle_v0.8/production_v0.8/schematics_tentacle_v0.8.pdf`
 
 ### Upload to JLCPCB
 
