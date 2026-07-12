@@ -84,5 +84,5 @@ Bug: [README_insufficient_bus_power.md](./README_insufficient_bus_power.md)
 
 ## History v0.7.1 -> v0.8.0 2026-07-12
 
-* PCB C217/1uF
-  * 0402 -> 0805
+* Solder bridge, 100nF parallel to C217
+* Silkscreen: 5V/150ms (5V/15ms without bridge)

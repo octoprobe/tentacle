@@ -1619,6 +1619,195 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -2051,7 +2240,7 @@
 	)
 	(rectangle
 		(start 154.94 83.82)
-		(end 260.35 152.4)
+		(end 260.35 160.02)
 		(stroke
 			(width 0)
 			(type default)
@@ -2074,7 +2263,7 @@
 		)
 		(uuid "1391ad68-731d-44b0-9c10-31b313aa7381")
 	)
-	(text "Datasheet \"Active Current Limiting\":\nGoal: 600mA\nRilm = 2000/(0.8A-0.04) = R3K571, choosen: R3K6\n\nDatasheet \"Slew Rate and Inrush Current Control\":\nGoal: 3V3/100ms\nC = 42000/V*ms = 1'272'272pF, choosen: 1uF"
+	(text "Datasheet \"Active Current Limiting\":\nGoal: 600mA\nRilm = 2000/(0.8A-0.04) = R3K571, choosen: R3K6\n\nDatasheet \"Slew Rate and Inrush Current Control\":\nGoal: 5V/150ms: 1uF\nC = 42'000/V*ms = 1'272'272pF, choosen: 1uF\nGoal: 5/15ms: 100nF"
 		(exclude_from_sim no)
 		(at 179.578 148.082 0)
 		(effects
@@ -2166,6 +2355,12 @@
 		(uuid "febd2917-2b35-4f24-adca-6231c6a10150")
 	)
 	(junction
+		(at 173.99 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "122abbcd-ee62-40a4-9731-9554b0395b01")
+	)
+	(junction
 		(at 170.18 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2202,10 +2397,10 @@
 		(uuid "70c0a2b1-3248-4126-b296-4caa19cc6716")
 	)
 	(junction
-		(at 173.99 114.3)
+		(at 179.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c62e2258-eaad-4527-80a5-1b1648e5539e")
+		(uuid "bd7badc5-35e4-4b7d-be2d-f40ab100e1b5")
 	)
 	(junction
 		(at 97.79 114.3)
@@ -2289,16 +2484,6 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 119.38) (xy 187.96 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "213a48a4-d4d7-454e-8204-079c033ef11a")
-	)
-	(wire
-		(pts
 			(xy 250.19 114.3) (xy 248.92 114.3)
 		)
 		(stroke
@@ -2366,6 +2551,26 @@
 			(type default)
 		)
 		(uuid "3b253b5e-9c66-436d-b6ba-1a1d65671163")
+	)
+	(wire
+		(pts
+			(xy 179.07 119.38) (xy 187.96 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c85a3a3-4317-4d9e-b490-353016dca050")
+	)
+	(wire
+		(pts
+			(xy 173.99 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "450d285e-d9d2-4def-96e9-b5dee5e09884")
 	)
 	(wire
 		(pts
@@ -2589,16 +2794,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 104.14) (xy 173.99 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aefe3d81-2774-4465-ae82-4fae2e1cae2e")
-	)
-	(wire
-		(pts
 			(xy 116.84 114.3) (xy 118.11 114.3)
 		)
 		(stroke
@@ -2639,6 +2834,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 114.3) (xy 173.99 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c742c6de-d006-42fc-abd5-3d4823b930b9")
+	)
+	(wire
+		(pts
 			(xy 88.9 119.38) (xy 82.55 119.38)
 		)
 		(stroke
@@ -2646,16 +2851,6 @@
 			(type default)
 		)
 		(uuid "ca12fd01-6852-4d2e-881d-47ab11361285")
-	)
-	(wire
-		(pts
-			(xy 173.99 114.3) (xy 171.45 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cca48858-f2b3-413b-94ee-971cafb3ab47")
 	)
 	(wire
 		(pts
@@ -2686,6 +2881,16 @@
 			(type default)
 		)
 		(uuid "d90b4d3b-9fa2-4391-b432-a4649cd9493b")
+	)
+	(wire
+		(pts
+			(xy 167.64 119.38) (xy 179.07 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddba8993-b7e2-4a44-92fb-d8af8228a854")
 	)
 	(wire
 		(pts
@@ -3203,7 +3408,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:C")
-		(at 184.15 123.19 0)
+		(at 167.64 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3213,7 +3418,7 @@
 		(dnp no)
 		(uuid "19ca7ca8-e9e1-4040-8d13-21b3d1a91023")
 		(property "Reference" "C217"
-			(at 187.325 122.2756 0)
+			(at 170.815 122.2756 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3224,7 +3429,7 @@
 			)
 		)
 		(property "Value" "1u"
-			(at 187.325 123.825 0)
+			(at 170.815 123.825 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3234,8 +3439,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 185.1152 127 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 168.6052 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 184.15 123.19 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3257,7 +3462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 184.15 123.19 0)
+			(at 167.64 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3268,7 +3473,7 @@
 			)
 		)
 		(property "JLC" "C52923"
-			(at 120.6499 271.7801 0)
+			(at 104.1399 271.7801 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,6 +4273,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 167.64 132.08 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "891df38e-8922-41e6-bcad-bd3e59df567a")
+		(property "Reference" "JP201"
+			(at 1359.154 -1376.426 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SolderJumper_2_Bridged"
+			(at 1350.772 -1373.124 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+			(at 1356.36 -1376.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1362.71 -1376.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 1361.44 -1376.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "98c844e6-43ab-42a1-bd81-89667acd3102")
+		)
+		(pin "2"
+			(uuid "e38c4e53-d7a4-4e83-8db0-881f7eef7c6c")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
+					(reference "JP201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 218.44 127 0)
 		(unit 1)
@@ -4540,6 +4825,83 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
 					(reference "#PWR0225")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 127 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9e9d7819-9af7-4b6b-bf85-e4455f27f4d8")
+		(property "Reference" "#PWR0226"
+			(at 179.07 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 179.07 130.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "165f0b71-0e98-4d0a-af03-8a54643dc6cf")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
+					(reference "#PWR0226")
 					(unit 1)
 				)
 			)
@@ -5147,6 +5509,98 @@
 		)
 	)
 	(symbol
+		(lib_id "00_project_library:C")
+		(at 179.07 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e14926e4-fde7-4227-ab1a-6d5b78e9d7a0")
+		(property "Reference" "C311"
+			(at 181.991 122.2756 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 181.991 123.825 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 180.0352 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 179.07 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C1525"
+			(at 156.2099 302.2601 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fbd62427-ddab-430e-8595-277622f093c7")
+		)
+		(pin "2"
+			(uuid "8f8e2bfa-8f20-48d6-9696-1873ea1ab093")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
+					(reference "C311")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "00_project_library:LED GREEN")
 		(at 121.92 114.3 180)
 		(unit 1)
@@ -5653,83 +6107,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 184.15 127 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f7f3c96e-8a82-4b06-b41d-9c6d27369b0a")
-		(property "Reference" "#PWR0226"
-			(at 184.15 133.35 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 184.15 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 184.15 127 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d90c8ec2-99e6-4121-9631-0c7cfc3d95e9")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
-					(reference "#PWR0226")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:C")
 		(at 170.18 43.18 0)
 		(unit 1)
@@ -5893,6 +6270,83 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
 					(reference "#PWR0219")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 167.64 137.16 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ffc8a63d-2a2d-4191-b695-251aa5c412f6")
+		(property "Reference" "#PWR0243"
+			(at 167.64 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 167.64 140.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 167.64 137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a241233e-d7c5-4b4e-9467-d8f04c37dfe2")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1/ca80583c-f2d8-4707-8692-a71188348d5f"
+					(reference "#PWR0243")
 					(unit 1)
 				)
 			)
