@@ -1,0 +1,4 @@
+# Double click this file and it will loop over all .csv file in this directory
+# to generated png diagrams
+
+uv run --python 3.13.7 --with=git+https://github.com/hmaerki/experiment_kicad_purge@main kicad_purge
