@@ -20,8 +20,11 @@ The DUT may be powered over D+/D- (back-powering / phantom powering),
 To prevent this add a
 * https://jlcpcb.com/partdetail/TexasInstruments-TS3USB221ARSER/C128396
   USD0.26, 88k
+  Integrated ESD protection on all pins
+  ==> Selected
 * https://jlcpcb.com/partdetail/TexasInstruments-TS3USB221ERSER/C129313
 * https://jlcpcb.com/partdetail/TexasInstruments-TS3USB221RSER/C130085
-  MUX
   USD0.3, 65k
+  Standard IC ESD
+  ==> Fallback, Pin compatible
 * https://www.diodes.com/assets/Datasheets/PI3USB4002A.pdf

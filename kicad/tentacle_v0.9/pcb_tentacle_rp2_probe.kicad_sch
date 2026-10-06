@@ -4292,7 +4292,7 @@
 		)
 		(uuid "7dc724a4-6f8b-49c3-8db8-b608e9a15d1c")
 	)
-	(text "RP2040"
+	(text "RP2 PROBE"
 		(exclude_from_sim no)
 		(at 27.94 22.86 0)
 		(effects

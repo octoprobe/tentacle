@@ -3575,7 +3575,7 @@
 		)
 		(uuid "8dbeca8b-c6a1-4315-8697-34d59d23a13a")
 	)
-	(text "RP2040 Infra"
+	(text "RP2 INFRA"
 		(exclude_from_sim no)
 		(at 18.288 19.558 0)
 		(effects
