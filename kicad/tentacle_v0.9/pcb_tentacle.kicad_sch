@@ -4143,7 +4143,7 @@
 			(color 0 0 0 0)
 		)
 		(uuid "24d7d496-8920-4421-a637-0c9bf263a085")
-		(property "Sheetname" "RP2 CPU"
+		(property "Sheetname" "RP2 INFRA"
 			(at 215.9 80.5684 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4154,7 +4154,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pcb_tentacle_cpu.kicad_sch"
+		(property "Sheetfile" "pcb_tentacle_rp2_infra.kicad_sch"
 			(at 215.9 94.5646 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4348,7 +4348,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "pcb_tentacle_probe.kicad_sch"
+		(property "Sheetfile" "pcb_tentacle_rp2_probe.kicad_sch"
 			(at 215.9 114.8846 0)
 			(show_name no)
 			(do_not_autoplace no)
