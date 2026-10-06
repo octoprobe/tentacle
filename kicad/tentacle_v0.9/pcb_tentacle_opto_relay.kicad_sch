@@ -1601,7 +1601,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "278487ea-f1be-490e-b6f2-7f4ca98c4cf4")

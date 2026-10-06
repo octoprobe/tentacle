@@ -4994,7 +4994,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "b6257f65-f7ae-435a-a259-a8bbdaa68b11")
 		(property "Reference" "BP201"
@@ -5437,7 +5437,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "dd685074-d3e1-4450-a5f8-d7bb19c43433")
 		(property "Reference" "BP202"
@@ -6114,7 +6114,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "fa877fed-9366-498e-8396-6ab02640e098")
 		(property "Reference" "C216"

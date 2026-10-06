@@ -3262,7 +3262,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "1b52e433-0f1e-425b-b41c-ce73cb66812e")
 		(property "Reference" "NT105"
@@ -3348,7 +3348,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "24a36d35-3b37-403d-b8cf-d483183719ee")
@@ -3646,7 +3646,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
 		(property "Reference" "NT102"
@@ -3810,7 +3810,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "2dd3b599-ae90-4c3d-8bab-f5a052d74cbf")
 		(property "Reference" "BP221"
@@ -3967,7 +3967,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "44e8ee1f-c037-4dd5-983c-6a2a36081237")
 		(property "Reference" "BP220"
@@ -4045,7 +4045,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "450b5437-4416-4540-8cdd-d76195e5a41e")
 		(property "Reference" "BP224"
@@ -4600,7 +4600,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "74492d1f-903f-430a-9a43-0baee3712083")
 		(property "Reference" "NT101"
@@ -4686,7 +4686,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "7ed362e3-3c8b-4da7-be17-c594ec1ad019")
 		(property "Reference" "BP223"
@@ -4765,7 +4765,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "93fd957c-75f6-4549-8c43-0fc8ba8fcd8a")
 		(property "Reference" "NT104"
@@ -5238,9 +5238,8 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c86f88cf-d177-4896-9d56-38a041363559")
 		(property "Reference" "BP222"
 			(at 58.42 137.1599 90)
@@ -5472,7 +5471,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "d59c4267-0d9a-440d-916b-b6b2602f5bf5")
 		(property "Reference" "NT106"
@@ -5558,7 +5557,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "da321d52-45ee-4646-ae75-7d1e58c10b52")
@@ -5714,7 +5713,7 @@
 		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
-		(in_pos_files yes)
+		(in_pos_files no)
 		(dnp no)
 		(uuid "f359c97f-045b-479c-8867-eaaf46c29a80")
 		(property "Reference" "NT103"
