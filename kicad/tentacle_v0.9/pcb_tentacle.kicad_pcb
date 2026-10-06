@@ -2779,18 +2779,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 180)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "4b3055c7-9986-47c4-a158-aeb67ad2ce7e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "JLC" "C52923"
 			(at 0 0 180)
 			(unlocked yes)
@@ -43972,14 +43960,6 @@
 		(path "/cff48fa5-514e-40a1-9e85-b0c2e53fd5a3/557502ab-5472-45f4-8f42-83d0c965520a")
 		(sheetname "/USB Hub Chip/")
 		(sheetfile "pcb_tentacle_usbhubchip.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "S1" "B1" "B12" "A1" "A12" "A9" "B4" "B9" "A4" "A5" "B5" "A7" "B7"
-					"A6" "B6" "A8" "B8"
-				)
-			)
-		)
 		(attr through_hole)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -44347,17 +44327,6 @@
 			(uuid "195aa97f-a848-4e1c-bfb3-29758ce38e69")
 		)
 		(embedded_fonts no)
-		(model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_Palconn_UTC16-G.wrl"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
 		(model "${KIPRJMOD}/00_project_parts/bizcard/footprints/TYPE-C-31-M-12--3DModel-STEP-56544.STEP"
 			(offset
 				(xyz 0 -2.2 0)
@@ -100943,18 +100912,6 @@
 				)
 			)
 		)
-		(property "KiLib_Generator" "SMD_2terminal_chip_molded"
-			(at 0 0 0)
-			(layer "F.SilkS")
-			(hide yes)
-			(uuid "529c20b7-a283-4984-88a8-e42e99210dcf")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "JLC" "C1525"
 			(at 0 0 0)
 			(unlocked yes)
@@ -140104,6 +140061,18 @@
 				(thickness 0.125)
 			)
 			(justify bottom mirror)
+		)
+	)
+	(gr_text "SLEW_RATE_SOLDER_BRIDGE"
+		(at 79.275012 43.66 0)
+		(layer "B.SilkS")
+		(uuid "533f8a9e-c6b2-43d8-bae5-e0053c48fda0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify right bottom mirror)
 		)
 	)
 	(gr_text "GND"
