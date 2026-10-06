@@ -2205,7 +2205,7 @@
 	)
 	(rectangle
 		(start 17.78 19.05)
-		(end 207.01 157.48)
+		(end 207.01 163.83)
 		(stroke
 			(width 0)
 			(type default)
@@ -2334,28 +2334,28 @@
 		(uuid "acda25cf-e9bc-4178-9acf-08fa42ad940c")
 	)
 	(junction
+		(at 147.32 140.97)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1f5c20b6-8ba3-4147-ae46-26f57c77dfa9")
+	)
+	(junction
 		(at 151.13 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79163a6a-9184-4f98-98b5-f6e372f00d5c")
 	)
 	(junction
-		(at 118.11 144.78)
+		(at 147.32 143.51)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9590ed7d-b64e-4a33-bef1-6fca68eeaf99")
+		(uuid "8fcb4abc-ee7a-4edc-9e90-d7597e04dca0")
 	)
 	(junction
 		(at 173.99 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abae14bc-4014-46ff-bcb1-b318e6dc48c5")
-	)
-	(junction
-		(at 118.11 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c63c5e9a-9834-443d-8c26-e1f88a2af046")
 	)
 	(junction
 		(at 92.71 77.47)
@@ -2366,6 +2366,18 @@
 	(no_connect
 		(at 53.34 67.31)
 		(uuid "1e53d80a-6ed9-4f20-b6ea-51ae0deeb506")
+	)
+	(no_connect
+		(at 161.29 96.52)
+		(uuid "5ce5f78e-cf60-43e4-8405-51a852c7c366")
+	)
+	(no_connect
+		(at 139.7 135.89)
+		(uuid "98fd668c-5e31-464c-bc51-3f4fb46431cf")
+	)
+	(no_connect
+		(at 139.7 133.35)
+		(uuid "a77b7dbd-5a3c-44ec-8d32-a22e2848438b")
 	)
 	(no_connect
 		(at 53.34 64.77)
@@ -2477,16 +2489,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 142.24) (xy 125.73 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "358d6523-59b7-4aa9-8d11-46e4e2c8350c")
-	)
-	(wire
-		(pts
 			(xy 161.29 106.68) (xy 181.61 106.68)
 		)
 		(stroke
@@ -2517,13 +2519,23 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 142.24) (xy 110.49 142.24)
+			(xy 82.55 133.35) (xy 110.49 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4c0d3b82-fca8-4792-9d3c-791cb634210c")
+	)
+	(wire
+		(pts
+			(xy 162.56 143.51) (xy 166.37 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "663b63bd-2a47-4a6c-955e-6fbd9462f144")
 	)
 	(wire
 		(pts
@@ -2547,7 +2559,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 144.78) (xy 110.49 144.78)
+			(xy 82.55 135.89) (xy 110.49 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2557,13 +2569,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 144.78) (xy 137.16 144.78)
+			(xy 139.7 140.97) (xy 147.32 140.97)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "880a3c4b-ba4c-47a3-b7c5-0a0c4b8eed7d")
+		(uuid "8171ac17-9036-41cd-8233-a7bc1fc5cd0e")
 	)
 	(wire
 		(pts
@@ -2627,6 +2639,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 143.51) (xy 154.94 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96cc5ce4-305e-4798-9703-2974911ed95b")
+	)
+	(wire
+		(pts
 			(xy 115.57 99.06) (xy 140.97 99.06)
 		)
 		(stroke
@@ -2657,6 +2679,16 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 133.35) (xy 115.57 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6328625-7b75-4ceb-a63d-d0c93e57cfc9")
+	)
+	(wire
+		(pts
 			(xy 151.13 81.28) (xy 151.13 83.82)
 		)
 		(stroke
@@ -2664,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "a854bfe1-1501-4d18-86c9-009e595e8418")
-	)
-	(wire
-		(pts
-			(xy 133.35 142.24) (xy 137.16 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a94d0cd8-d011-4116-90fb-adb0909d20e1")
 	)
 	(wire
 		(pts
@@ -2707,7 +2729,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 144.78) (xy 77.47 144.78)
+			(xy 53.34 135.89) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -2737,33 +2759,23 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 142.24) (xy 77.47 142.24)
+			(xy 147.32 140.97) (xy 154.94 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb1af051-0096-4428-bb27-a188efa5fc9d")
+	)
+	(wire
+		(pts
+			(xy 53.34 133.35) (xy 77.47 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cf1645f6-4e0a-4c73-a4da-9cf8ae878f22")
-	)
-	(wire
-		(pts
-			(xy 118.11 144.78) (xy 125.73 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7cd4ef3-bc48-4513-992f-bb0f752ff8be")
-	)
-	(wire
-		(pts
-			(xy 115.57 144.78) (xy 118.11 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04ba07f-eb22-40f2-8530-6808abaf61d5")
 	)
 	(wire
 		(pts
@@ -2777,13 +2789,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 142.24) (xy 118.11 142.24)
+			(xy 115.57 135.89) (xy 119.38 135.89)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efd15feb-94ec-46cd-8480-30fd6a85dc3a")
+		(uuid "ede85a6b-9314-4d55-baca-e4a2223e88c8")
 	)
 	(wire
 		(pts
@@ -2794,6 +2806,26 @@
 			(type default)
 		)
 		(uuid "f5e5754b-7ae4-4bc9-9700-30357ca5fc35")
+	)
+	(wire
+		(pts
+			(xy 162.56 140.97) (xy 166.37 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7b78119-5eb2-4d6c-b375-35e7adb473fd")
+	)
+	(wire
+		(pts
+			(xy 139.7 143.51) (xy 147.32 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "faf7d16a-57fb-4540-bfa6-3b26dbde77d2")
 	)
 	(label "USB_INFRA_D-"
 		(at 86.36 36.83 0)
@@ -2806,7 +2838,7 @@
 		(uuid "3a5e3d30-a9c6-4b8f-9386-4178365df791")
 	)
 	(label "USB_PROBE_D+"
-		(at 88.9 144.78 0)
+		(at 88.9 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2816,7 +2848,7 @@
 		(uuid "5e541603-532c-4a86-a79b-9abec5078662")
 	)
 	(label "USB_PROBE_D-"
-		(at 88.9 142.24 0)
+		(at 88.9 133.35 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2899,54 +2931,6 @@
 			)
 		)
 	)
-	(global_label "_USB_PROBE_D-"
-		(shape output)
-		(at 137.16 142.24 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2819823e-e9d0-4411-83a3-78a60883a454")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9964 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "_USB_PROBE_D+"
-		(shape output)
-		(at 137.16 144.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4756ee0b-d218-4597-940c-7cd18c811f04")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9964 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "DUT_PWR_EN"
 		(shape input)
 		(at 140.97 106.68 180)
@@ -2968,6 +2952,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+	)
+	(global_label "_USB_PROBE_D-"
+		(shape output)
+		(at 166.37 140.97 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "821035b8-3798-4c63-b55c-6bfeb29992ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.2064 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -2995,6 +3003,30 @@
 			)
 		)
 	)
+	(global_label "RP2_PROBE_RUN"
+		(shape input)
+		(at 119.38 143.51 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aa7f78a1-2668-4231-a3dc-9b10e90e0e39")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.3945 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "RP2_INFRA_BOOT"
 		(shape output)
 		(at 99.06 77.47 0)
@@ -3008,6 +3040,30 @@
 		(uuid "b1f411cc-e764-4578-8fd1-1112182a06b6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 118.1061 77.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "_USB_PROBE_D+"
+		(shape output)
+		(at 166.37 143.51 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c1523fe9-ecf1-49cf-a224-61a5dac7f42f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.2064 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,41 +3177,39 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:octoprobe_breakout_BP")
-		(at 158.75 137.16 180)
+		(lib_id "power:GND")
+		(at 193.04 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "010207bd-81e7-46be-bb3a-11039caa1ab7")
-		(property "Reference" "BP223"
-			(at 161.29 139.1919 0)
+		(uuid "064793a1-117b-4794-af8d-bd10ae9f99f1")
+		(property "Reference" "#PWR0242"
+			(at 193.04 156.21 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify right)
 			)
 		)
-		(property "Value" "USB_PROBE_5V"
-			(at 161.29 141.7319 0)
+		(property "Value" "GND"
+			(at 193.167 153.4922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
-			(at 153.67 137.16 0)
+		(property "Footprint" ""
+			(at 193.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3165,8 +3219,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
-			(at 153.67 137.16 0)
+		(property "Datasheet" ""
+			(at 193.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3176,8 +3230,8 @@
 				)
 			)
 		)
-		(property "Description" "Octoprobe Prototype Board"
-			(at 158.75 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3188,12 +3242,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b00bbc1-5b8d-480b-abb6-f096f225b2fb")
+			(uuid "89f5c975-3200-4f27-bb07-b877a2dda6e0")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "BP223")
+					(reference "#PWR0242")
 					(unit 1)
 				)
 			)
@@ -3379,29 +3433,41 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 113.03 142.24 0)
-		(mirror y)
+		(lib_id "00_project_library:TS3USB221RSER")
+		(at 129.54 138.43 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
-		(property "Reference" "NT102"
-			(at 112.014 147.32 0)
+		(fields_autoplaced yes)
+		(uuid "251c7df4-9377-412a-8a3a-ff77010d402a")
+		(property "Reference" "U208"
+			(at 131.6833 125.73 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 113.03 147.32 0)
+		(property "Value" "TS3USB221RSER"
+			(at 131.6833 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:Texas_R-PUQFN-N10"
+			(at 129.54 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3411,8 +3477,123 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 118.11 149.86 0)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/ts3usb221"
+			(at 129.54 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "High-Speed USB 2.0 1:2 Multiplexer/Demultiplexer Switch with Single Enable, UQFN-10"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC" "C128396"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLC - fallback" "C130085"
+			(at 129.54 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "f7b632a5-b1fb-4190-9560-64cdbef127cb")
+		)
+		(pin "6"
+			(uuid "baedccb5-8d30-42c8-bd72-1a503878ab91")
+		)
+		(pin "7"
+			(uuid "c8b23c7f-dbb1-4d41-8b7a-d501fd5b6f3c")
+		)
+		(pin "4"
+			(uuid "c02bea1b-5fd8-4cdf-b106-e8149ca6ef08")
+		)
+		(pin "1"
+			(uuid "dcecb22f-1c78-4c17-a6fd-307c07f5603b")
+		)
+		(pin "2"
+			(uuid "8f8fcf93-bbb0-48af-ad6a-d9672fc11411")
+		)
+		(pin "9"
+			(uuid "42f39cb5-a581-4cd6-b2a4-857285075a0b")
+		)
+		(pin "3"
+			(uuid "6626ec63-c3f7-4469-a17f-844b97107696")
+		)
+		(pin "5"
+			(uuid "b018de3e-7e8e-4bf7-8413-1f36bbbfa3c5")
+		)
+		(pin "8"
+			(uuid "6b2830c7-c51b-45b1-9804-5e60e0600b55")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "U208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 119.38 140.97 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "28285753-c0a1-49c5-aa6a-6d0cc03b1b23")
+		(property "Reference" "#PWR0111"
+			(at 113.03 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.7478 140.843 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 119.38 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3423,7 +3604,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 113.03 142.24 0)
+			(at 119.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 119.38 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1c1ef1c9-f7ee-4f7d-807f-653543294770")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 113.03 133.35 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "29cf6224-3487-4c23-8f09-780bac344394")
+		(property "Reference" "NT102"
+			(at 112.014 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 113.03 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 118.11 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3434,7 +3693,7 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins"
-			(at 106.68 154.94 0)
+			(at 106.68 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3544,18 +3803,40 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:+5Vbuf")
-		(at 158.75 137.16 0)
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 147.32 143.51 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3f886113-3237-4ea1-ae44-0d781dd338b0")
-		(property "Reference" "#PWR0244"
-			(at 158.75 140.97 0)
+		(uuid "2dd3b599-ae90-4c3d-8bab-f5a052d74cbf")
+		(property "Reference" "BP221"
+			(at 145.034 149.352 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "USB_PROBE_D+"
+			(at 145.034 151.638 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 142.24 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3565,19 +3846,8 @@
 				)
 			)
 		)
-		(property "Value" "+5Vbuf"
-			(at 158.75 133.096 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 137.16 0)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 142.24 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3587,19 +3857,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 158.75 137.16 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 137.16 0)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 147.32 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3610,12 +3869,247 @@
 			)
 		)
 		(pin "1"
-			(uuid "c95db31c-c17f-40d1-a57e-7c51fc89cabc")
+			(uuid "16de1c6e-ea29-4115-9130-c5c6f92f2da6")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0244")
+					(reference "BP221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 158.75 143.51 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "31f76725-5009-4913-a301-b9a145c8dde9")
+		(property "Reference" "R221"
+			(at 158.75 146.05 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 158.75 143.6116 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 141.732 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2df7564-9bdf-4924-8e39-566b4913b599")
+		)
+		(pin "2"
+			(uuid "4a48cad1-069d-4f89-b4a8-f67525e2d035")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "R221")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 147.32 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44e8ee1f-c037-4dd5-983c-6a2a36081237")
+		(property "Reference" "BP220"
+			(at 144.272 132.588 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PROBE_D-"
+			(at 144.526 135.382 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 152.4 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 152.4 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 147.32 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "28e1b9af-6518-4a72-8941-4abfff05ebda")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP220")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_breakout_BP")
+		(at 193.04 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "450b5437-4416-4540-8cdd-d76195e5a41e")
+		(property "Reference" "BP224"
+			(at 190.754 141.986 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB_PROBE_GND"
+			(at 190.754 144.272 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
+			(at 198.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
+			(at 198.12 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Octoprobe Prototype Board"
+			(at 193.04 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15f4a7d6-efc6-4d83-ab73-0e8b24eff602")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "BP224")
 					(unit 1)
 				)
 			)
@@ -3714,40 +4208,39 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:octoprobe_breakout_BP")
-		(at 118.11 142.24 0)
+		(lib_id "00_project_library:+3V3infra")
+		(at 129.54 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5d1dc4c2-623a-4f85-8c3b-99d76ab93015")
-		(property "Reference" "BP220"
-			(at 115.062 133.858 0)
+		(uuid "611a7973-c33b-4217-a591-6561a109cc0a")
+		(property "Reference" "#PWR0246"
+			(at 129.54 132.08 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "USB_PROBE_D-"
-			(at 115.316 136.652 0)
+		(property "Value" "+3V3infra"
+			(at 129.413 124.6378 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 0.8 0.8)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
-			(at 123.19 142.24 0)
+		(property "Footprint" ""
+			(at 129.54 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3757,8 +4250,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
-			(at 123.19 142.24 0)
+		(property "Datasheet" ""
+			(at 129.54 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3768,8 +4261,8 @@
 				)
 			)
 		)
-		(property "Description" "Octoprobe Prototype Board"
-			(at 118.11 142.24 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3infra\""
+			(at 129.54 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,12 +4273,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "00258afd-e11a-4e33-adec-6b3ea73db90f")
+			(uuid "6be3d8c7-3439-4235-829b-e5349132765f")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "BP220")
+					(reference "#PWR0246")
 					(unit 1)
 				)
 			)
@@ -3920,163 +4413,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 129.54 142.24 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d480943-acba-437f-ac03-a9715a4b225a")
-		(property "Reference" "R220"
-			(at 129.54 139.954 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 129.54 142.3416 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 140.462 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 142.24 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "aee6edc7-567a-4158-8519-1b804ac38011")
-		)
-		(pin "2"
-			(uuid "c5b4becb-5459-4543-9678-a42b1bf6e62a")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "R220")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "00_project_library:octoprobe_breakout_BP")
-		(at 118.11 144.78 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7187a973-393b-42c7-bdd6-b43f99ca1fcd")
-		(property "Reference" "BP221"
-			(at 115.824 150.622 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "USB_PROBE_D+"
-			(at 115.824 152.908 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
-			(at 113.03 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
-			(at 113.03 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Octoprobe Prototype Board"
-			(at 118.11 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d95f87ca-d048-45c1-813b-094da7598845")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "BP221")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "00_project_library:LED WHITE")
 		(at 109.22 67.31 0)
 		(unit 1)
@@ -4178,29 +4514,18 @@
 		)
 	)
 	(symbol
-		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
-		(at 80.01 144.78 0)
-		(mirror x)
+		(lib_id "00_project_library:+5Vbuf")
+		(at 193.04 130.81 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "74492d1f-903f-430a-9a43-0baee3712083")
-		(property "Reference" "NT101"
-			(at 80.01 147.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "octoprobe_NetTie_USB_Differential"
-			(at 80.01 147.32 0)
+		(uuid "71fe4a6a-8bb1-45c5-865f-515f5c8236e8")
+		(property "Reference" "#PWR0244"
+			(at 193.04 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4210,8 +4535,19 @@
 				)
 			)
 		)
-		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
-			(at 74.93 137.16 0)
+		(property "Value" "+5Vbuf"
+			(at 193.04 126.746 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4222,7 +4558,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 80.01 144.78 0)
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 193.04 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dc706d10-d648-48dd-ba80-3e065c17cf22")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0244")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "00_project_library:octoprobe_NetTie_USB_Differential")
+		(at 80.01 135.89 0)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "74492d1f-903f-430a-9a43-0baee3712083")
+		(property "Reference" "NT101"
+			(at 80.01 138.43 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "octoprobe_NetTie_USB_Differential"
+			(at 80.01 138.43 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "00_project_library:octoprobe_NetTie_USB_Differential"
+			(at 74.93 128.27 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 135.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4233,7 +4647,7 @@
 			)
 		)
 		(property "Description" "Net tie, 4 pins"
-			(at 86.36 132.08 0)
+			(at 86.36 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4266,7 +4680,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:octoprobe_breakout_BP")
-		(at 158.75 149.86 0)
+		(at 193.04 130.81 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4274,32 +4688,31 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7490b838-7001-45e7-9294-6812eeb95dd2")
-		(property "Reference" "BP224"
-			(at 161.29 145.2879 0)
+		(uuid "7ed362e3-3c8b-4da7-be17-c594ec1ad019")
+		(property "Reference" "BP223"
+			(at 190.5 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "USB_PROBE_GND"
-			(at 161.29 147.8279 0)
+		(property "Value" "USB_PROBE_5V"
+			(at 190.5 138.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
-			(at 163.83 149.86 0)
+			(at 187.96 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4310,7 +4723,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
-			(at 163.83 149.86 0)
+			(at 187.96 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4321,7 +4734,7 @@
 			)
 		)
 		(property "Description" "Octoprobe Prototype Board"
-			(at 158.75 149.86 0)
+			(at 193.04 130.81 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,12 +4745,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "fc94583e-402c-404a-ae0d-8fac730192a2")
+			(uuid "cd3437ff-bc58-4d84-b937-833f85ba8273")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "BP224")
+					(reference "BP223")
 					(unit 1)
 				)
 			)
@@ -4508,8 +4921,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 158.75 149.86 0)
+		(lib_id "Device:R")
+		(at 158.75 140.97 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4517,41 +4930,40 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a0bfff0f-94e8-4186-940e-ded1b438be0b")
-		(property "Reference" "#PWR0242"
-			(at 158.75 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 158.877 153.4922 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 158.75 149.86 0)
-			(hide yes)
+		(uuid "a58e5ca1-a614-46a2-a59a-a0f1d59aedb5")
+		(property "Reference" "R220"
+			(at 158.75 138.684 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0R"
+			(at 158.75 141.0716 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 158.75 139.192 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
 				)
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 149.86 0)
+			(at 158.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4561,8 +4973,8 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 149.86 0)
+		(property "Description" ""
+			(at 158.75 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4573,12 +4985,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "1b89026e-cc2d-44e6-b9e3-059277e20e2a")
+			(uuid "ade0b6c7-49a1-43e2-ae06-54cfcc912776")
+		)
+		(pin "2"
+			(uuid "a96a1aa2-4dfa-4714-a34a-6ce4dcd7db7f")
 		)
 		(instances
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "#PWR0242")
+					(reference "R220")
 					(unit 1)
 				)
 			)
@@ -4817,7 +5232,7 @@
 	)
 	(symbol
 		(lib_id "00_project_library:octoprobe_breakout_BP")
-		(at 53.34 147.32 270)
+		(at 53.34 138.43 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4828,7 +5243,7 @@
 		(fields_autoplaced yes)
 		(uuid "c86f88cf-d177-4896-9d56-38a041363559")
 		(property "Reference" "BP222"
-			(at 58.42 146.0499 90)
+			(at 58.42 137.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4839,7 +5254,7 @@
 			)
 		)
 		(property "Value" "USB_PROBE_PWR"
-			(at 58.42 148.5899 90)
+			(at 58.42 139.6999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4850,7 +5265,7 @@
 			)
 		)
 		(property "Footprint" "00_project_library:octoprobe_breakout_PB"
-			(at 53.34 152.4 0)
+			(at 53.34 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4861,7 +5276,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.roth-elektronik.com/de/produkte/detail/artnr/RE233-LF/category/Laborkarten+Dual+Inline"
-			(at 53.34 152.4 0)
+			(at 53.34 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,7 +5287,7 @@
 			)
 		)
 		(property "Description" "Octoprobe Prototype Board"
-			(at 53.34 147.32 0)
+			(at 53.34 138.43 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,6 +5304,83 @@
 			(project "pcb_tentacle"
 				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
 					(reference "BP222")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 129.54 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ce4631ad-63ac-459f-a792-9e10356587dc")
+		(property "Reference" "#PWR0110"
+			(at 129.54 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 129.413 152.2222 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 0.8 0.8)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7bf06dd8-4c0d-4d26-a36d-b86f83f60f5d")
+		)
+		(instances
+			(project "pcb_tentacle"
+				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5300,85 +5792,6 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "Device:R")
-		(at 129.54 144.78 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f8c0728b-b1ab-4a78-8acc-d949e36dde80")
-		(property "Reference" "R221"
-			(at 129.54 147.32 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R"
-			(at 129.54 144.8816 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 129.54 143.002 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 0.8 0.8)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 144.78 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e14b8c95-995a-4b6c-a6c4-f2d68563ec42")
-		)
-		(pin "2"
-			(uuid "72c878c2-8b69-4876-9959-9a7ab65786e3")
-		)
-		(instances
-			(project "pcb_tentacle"
-				(path "/35c47459-45a7-4753-acae-c8b47e7575e1"
-					(reference "R221")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
 		(at 215.9 81.28)
 		(size 44.958 12.7)
@@ -5748,7 +6161,7 @@
 			)
 		)
 		(pin "USB_DP4" output
-			(at 53.34 144.78 0)
+			(at 53.34 135.89 0)
 			(uuid "10d9a4fe-8fe3-41c3-88fd-8d75d2e88cd6")
 			(effects
 				(font
@@ -5758,7 +6171,7 @@
 			)
 		)
 		(pin "PRT_PWR4" output
-			(at 53.34 147.32 0)
+			(at 53.34 138.43 0)
 			(uuid "3ae92a08-63d7-49af-9022-e573766b79d5")
 			(effects
 				(font
@@ -5778,7 +6191,7 @@
 			)
 		)
 		(pin "USB_DM4" output
-			(at 53.34 142.24 0)
+			(at 53.34 133.35 0)
 			(uuid "8ec61f3e-d56b-47dc-99ee-140502a12090")
 			(effects
 				(font
