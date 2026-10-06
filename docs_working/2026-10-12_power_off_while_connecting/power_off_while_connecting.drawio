@@ -1,0 +1,201 @@
+<mxfile host="Electron" agent="ChatGPT" pages="2">
+  <diagram id="schematic" name="Schematic and behavior">
+    <mxGraphModel dx="1046" dy="699" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#174A8B;" value="P-MOSFET Solution (High-Side Switch)" vertex="1">
+          <mxGeometry height="38" width="800" x="25" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="st" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=13;fontColor=#17365D;whiteSpace=wrap;" value="GPIO states supported: high impedance (Hi-Z) or actively driven to 0 V only" vertex="1">
+          <mxGeometry height="28" width="900" x="25" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pwr" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#1769C2;fontSize=14;fontStyle=1;fontColor=#174A8B;" value="PWRx&lt;br&gt;(USB2514B_Bi)&lt;br&gt;EN_IN" vertex="1">
+          <mxGeometry height="65" width="150" x="30" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontSize=13;fontColor=#111111;" value="Q1&lt;br&gt;P-channel MOSFET&lt;br&gt;Source left • Drain right" vertex="1">
+          <mxGeometry height="75" width="170" x="385" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="en" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F7EF;strokeColor=#229B62;fontSize=14;fontStyle=1;fontColor=#087443;" value="EN_OUT&lt;br&gt;(MT9700 EN)" vertex="1">
+          <mxGeometry height="65" width="150" x="790" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#1769C2;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="182" as="sourcePoint" />
+            <mxPoint x="385" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#1769C2;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="182" as="sourcePoint" />
+            <mxPoint x="790" y="182" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontSize=13;fontColor=#111111;" value="R3&lt;br&gt;100 kΩ" vertex="1">
+          <mxGeometry height="48" width="90" x="260" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="r1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontSize=13;fontColor=#111111;" value="R1&lt;br&gt;10 kΩ" vertex="1">
+          <mxGeometry height="48" width="90" x="260" y="315" as="geometry" />
+        </mxCell>
+        <mxCell id="gate" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#FFFFFF;strokeColor=#7E35C8;fontSize=10;" value="GATE" vertex="1">
+          <mxGeometry height="20" width="20" x="400" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="gpio" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F1E9FF;strokeColor=#7E35C8;fontSize=14;fontStyle=1;fontColor=#59239A;" value="DUT_PROBE_ENABLE&lt;br&gt;(GPIO)" vertex="1">
+          <mxGeometry height="55" width="200" x="30" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#1769C2;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="105" y="259" />
+              <mxPoint x="305" y="259" />
+            </Array>
+            <mxPoint x="105" y="215" as="sourcePoint" />
+            <mxPoint x="105" y="259" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#333333;strokeWidth=1.5;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="259" as="sourcePoint" />
+            <mxPoint x="410" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#7E35C8;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="337" as="sourcePoint" />
+            <mxPoint x="260" y="339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#7E35C8;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="339" as="sourcePoint" />
+            <mxPoint x="410" y="295" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#7E35C8;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="295" />
+              <mxPoint x="465" y="220" />
+            </Array>
+            <mxPoint x="410" y="295" as="sourcePoint" />
+            <mxPoint x="465" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="r2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#333333;fontSize=13;fontColor=#111111;" value="R2&lt;br&gt;10 kΩ" vertex="1">
+          <mxGeometry height="48" width="90" x="650" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="gnd" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=13;fontStyle=1;" value="GND" vertex="1">
+          <mxGeometry height="25" width="65" x="662" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#1769C2;strokeWidth=2;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="182" />
+              <mxPoint x="695" y="250" />
+            </Array>
+            <mxPoint x="720" y="182" as="sourcePoint" />
+            <mxPoint x="695" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" style="edgeStyle=none;html=1;strokeColor=#333333;strokeWidth=1.5;endArrow=none;startArrow=none;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="695" y="298" as="sourcePoint" />
+            <mxPoint x="695" y="335" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="op" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F9FF;strokeColor=#8AB4F8;fontSize=13;fontColor=#17365D;spacing=8;" value="&lt;b&gt;Operation&lt;/b&gt;&lt;br&gt;Hi-Z: R3 pulls gate up to source → Q1 OFF; R2 keeps EN low.&lt;br&gt;GPIO = 0 V: R1 pulls gate low → Q1 ON; EN follows PWRx (minus small RDS(on) drop)." vertex="1">
+          <mxGeometry height="75" width="910" x="30" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="th" parent="1" style="text;html=1;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#174A8B;" value="Expected behavior" vertex="1">
+          <mxGeometry height="30" width="350" x="30" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="h0" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;fontStyle=1;fillColor=#DCE9FA;" value="GPIO state" vertex="1">
+          <mxGeometry height="32" width="145" x="30" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;fontStyle=1;fillColor=#DCE9FA;" value="PWRx" vertex="1">
+          <mxGeometry height="32" width="105" x="175" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;fontStyle=1;fillColor=#DCE9FA;" value="Q1" vertex="1">
+          <mxGeometry height="32" width="100" x="280" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;fontStyle=1;fillColor=#DCE9FA;" value="MT9700 EN" vertex="1">
+          <mxGeometry height="32" width="190" x="380" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="cell00" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="High impedance (Hi-Z)" vertex="1">
+          <mxGeometry height="36" width="145" x="30" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="cell01" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="0 V" vertex="1">
+          <mxGeometry height="36" width="105" x="175" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="cell02" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="OFF" vertex="1">
+          <mxGeometry height="36" width="100" x="280" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="cell03" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="LOW (R2 pulls down)" vertex="1">
+          <mxGeometry height="36" width="190" x="380" y="552" as="geometry" />
+        </mxCell>
+        <mxCell id="cell10" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="High impedance (Hi-Z)" vertex="1">
+          <mxGeometry height="36" width="145" x="30" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="cell11" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="High" vertex="1">
+          <mxGeometry height="36" width="105" x="175" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="cell12" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="OFF" vertex="1">
+          <mxGeometry height="36" width="100" x="280" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="cell13" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="LOW (OFF)" vertex="1">
+          <mxGeometry height="36" width="190" x="380" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="cell20" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="Driven to 0 V" vertex="1">
+          <mxGeometry height="36" width="145" x="30" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="cell21" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="0 V" vertex="1">
+          <mxGeometry height="36" width="105" x="175" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="cell22" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="ON" vertex="1">
+          <mxGeometry height="36" width="100" x="280" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="cell23" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="LOW (PWRx is low)" vertex="1">
+          <mxGeometry height="36" width="190" x="380" y="624" as="geometry" />
+        </mxCell>
+        <mxCell id="cell30" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="Driven to 0 V" vertex="1">
+          <mxGeometry height="36" width="145" x="30" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cell31" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="High" vertex="1">
+          <mxGeometry height="36" width="105" x="175" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cell32" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="ON" vertex="1">
+          <mxGeometry height="36" width="100" x="280" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="cell33" parent="1" style="text;html=1;align=center;verticalAlign=middle;fontSize=12;fontColor=#17365D;whiteSpace=wrap;strokeColor=#9DB7D8;fillColor=#F3F7FD;" value="Follows PWRx" vertex="1">
+          <mxGeometry height="36" width="190" x="380" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="warn" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E6B84A;fontSize=12;fontColor=#674B00;spacing=7;" value="&lt;b&gt;Design checks&lt;/b&gt;&lt;br&gt;• Verify Q1 VDS and VGS(max) against PWRx.&lt;br&gt;• Confirm RDS(on) is specified at the available gate drive.&lt;br&gt;• Confirm PWRx minus MOSFET drop meets MT9700 EN VIH.&lt;br&gt;• R2 = 10 kΩ loads PWRx when Q1 is on." vertex="1">
+          <mxGeometry height="230" width="350" x="590" y="480" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="notes" name="Design notes">
+    <mxGraphModel dx="1200" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="760" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="t2" value="P-MOSFET design notes" style="text;html=1;align=left;verticalAlign=middle;fontSize=24;fontStyle=1;fontColor=#174A8B;" vertex="1" parent="1">
+          <mxGeometry x="30" y="25" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="target" value="&lt;b&gt;Target behavior&lt;/b&gt;&lt;br&gt;&lt;br&gt;1. DUT_PROBE_ENABLE high impedance → Q1 OFF → MT9700 EN LOW.&lt;br&gt;&lt;br&gt;2. DUT_PROBE_ENABLE actively driven to 0 V → Q1 ON → MT9700 EN follows USB2514B PWRx.&lt;br&gt;&lt;br&gt;GPIO driven high is not a supported state." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EAF2FF;strokeColor=#1769C2;fontSize=14;fontColor=#17365D;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="90" width="420" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="vals" value="&lt;b&gt;Starting values&lt;/b&gt;&lt;br&gt;&lt;br&gt;Q1: P-channel MOSFET&lt;br&gt;R1: 50 kΩ (GPIO-to-gate series resistor)&lt;br&gt;R2: 10 kΩ (EN pull-down)&lt;br&gt;R3: 1 MΩ (gate-to-source pull-up)&lt;br&gt;&lt;br&gt;With GPIO low, R1/R3 set VGS to about −VPWRx × 1 MΩ/(1 MΩ + 50 kΩ), approximately −95% of PWRx." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F7EF;strokeColor=#229B62;fontSize=14;fontColor=#174A36;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="480" y="90" width="460" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="parts" value="&lt;b&gt;Checking JLC parts C15127 / C10487&lt;/b&gt;&lt;br&gt;&lt;br&gt;Check the current listing and datasheet for:&lt;br&gt;• P-channel polarity&lt;br&gt;• VDS rating ≥ maximum PWRx&lt;br&gt;• VGS(max) above worst-case source-to-gate voltage&lt;br&gt;• RDS(on) specified at the available VGS (not just −10 V)&lt;br&gt;• Package and S/G/D pinout&lt;br&gt;&lt;br&gt;Do not assume suitability from the part number alone." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F0FF;strokeColor=#8E63C5;fontSize=14;fontColor=#38205E;spacing=12;" vertex="1" parent="1">
+          <mxGeometry x="30" y="310" width="910" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="important" value="&lt;b&gt;Important&lt;/b&gt;&lt;br&gt;Gate pull-up only establishes Q1 OFF if the source/PWRx net has a defined voltage. If PWRx can float or be unpowered, check that power sequence separately. Ensure the EN high level remains above the MT9700 input threshold." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF8E7;strokeColor=#E6B84A;fontSize=13;fontColor=#674B00;spacing=10;" vertex="1" parent="1">
+          <mxGeometry x="30" y="590" width="910" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

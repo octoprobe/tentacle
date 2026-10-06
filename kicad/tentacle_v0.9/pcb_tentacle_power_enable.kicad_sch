@@ -1,0 +1,44 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "bb2cd341-427b-47cf-bdb5-9aa96df797c7")
+	(paper "A4")
+	(lib_symbols)
+	(rectangle
+		(start 57.15 67.31)
+		(end 218.44 140.97)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "2668c895-332e-44d8-82c0-fd7eb27474ef")
+	)
+	(text "Power enable AND"
+		(exclude_from_sim no)
+		(at 58.928 70.866 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+		(uuid "06e07c0f-6acc-4746-b441-8e5bdc5e69fc")
+	)
+	(hierarchical_label "PWR_EN"
+		(shape input)
+		(at 93.98 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cce022f6-7fc0-4870-9e30-a862b53bdc37")
+	)
+)

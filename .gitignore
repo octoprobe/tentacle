@@ -6,7 +6,7 @@
 docs/_build/
 docs/top/
 docs/index_top.rst
-docs/tentacle_v0.5_images/*.drawio.svg.bkp
+docs/tentacle_v0.*_images/*.drawio.svg.bkp
 kicad/tentacle_v*/00_project_library.bak
 kicad/tentacle_v*/pcb_octoprobe-backups/
 kicad/tentacle_v*/pcb_octoprobe.kicad_sch-bak
@@ -16,3 +16,4 @@ kicad/tentacle_v*/production/
 kicad/tentacle_v*/replicate_layout.log
 kicad/tentacle_v*/.history
 kicad/tentacle_v*/_restore_backup_*
+kicad/tentacle_v*/production_v0.9/backups/

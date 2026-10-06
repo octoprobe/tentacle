@@ -1,4 +1,4 @@
-Tentacle v0.7 (recommended, 10 pieces produced)
+Tentacle v0.8 (recommended, 10 pieces produced)
 =================================================================
 
 This repo describes the hardware of a tentacle:

@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP USB-226-BRW
+D 19.414.67.1mm USB Connectors ROHS 4 pin USB 2.0 DC 30V 1.5 A
+K
+F https://datasheet.lcsc.com/lcsc/2008111235_XUNPU-USB-226-BRW_C720524.pdf
+$ENDCMP
+#
+#End Doc Library

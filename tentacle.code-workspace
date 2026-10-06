@@ -4,7 +4,14 @@
 			"path": "."
 		}
 	],
-	"settings": {},
+	"settings": {
+		"files.exclude": {
+			"**/kicad/tentacle_v*/.history": true
+		},
+		"search.exclude": {
+			"**/kicad/tentacle_v*/.history": true
+		}
+	},
 	"extensions": {
 		"recommendations": [
 			"njpwerner.autodocstring",
