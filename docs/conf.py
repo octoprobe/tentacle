@@ -25,6 +25,13 @@ author = "Hans Märki"
 copyright = "2024-2026 Hans Märki"
 language = "en"
 
+# https://sphinx-sitemap.readthedocs.io/en/latest/
+sitemap_indent = 2
+# Default scheme is "{lang}{version}{link}" which adds "en/" to every URL.
+sitemap_url_scheme = "{link}"
+_sphinx_directory = os.environ.get("SPHINX_DIRECTORY", "SPHINX_DIRECTORY-not-defined")
+html_baseurl = f"https://www.octoprobe.org/{_sphinx_directory}/"
+
 extensions = [
     "sphinx_rtd_theme",
     "sphinx.ext.autodoc",
@@ -34,6 +41,7 @@ extensions = [
     "sphinx.ext.todo",
     "sphinx.ext.viewcode",
     # "sphinxmermaid",
+    "sphinx_sitemap",
     "sphinxcontrib.mermaid",
 ]
 
@@ -110,7 +118,7 @@ if "READTHEDOCS" not in os.environ:
 html_favicon = "_static/shortcut-icon.png"
 html_logo = "_static/octoprobe-horizontal.png"
 html_show_sourcelink = True
-html_title = "Octoprobe Documentation"
+html_title = f"{project} Documentation"
 
 
 htmlhelp_basename = slug
