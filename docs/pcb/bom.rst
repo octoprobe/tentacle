@@ -72,11 +72,26 @@ Apart from the assembled PCB, these parts are required for a fully functional te
      - https://de.aliexpress.com/item/1005006970202411.html https://de.aliexpress.com/item/1005004417926007.html
 
    * - optional (tentacle v0.6+)
-     - USB Micro Connector
+     - USB Micro Connector - **Not recommended, tends to loose connections**
 
        .. image:: bom_images/freestyle_usb_micro.png
      - Many
      - https://de.aliexpress.com/item/1005006326541133.html
+
+   * - optional (tentacle v0.6+)
+     - USB Micro Connector
+
+       .. image:: bom_images/freestyle_usb_micro4.png
+
+     - Many
+     - https://de.aliexpress.com/item/1005010746368887.html Type 4  
+
+   * - 
+     - Pin assignements
+       
+       .. image:: bom_images/freestyle_usb_micro4_pins.jpg
+     - 
+     - 
 
    * - optional (tentacle v0.6+)
      - Bulk Capacitor 500-1000uF

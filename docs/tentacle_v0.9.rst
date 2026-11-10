@@ -1,4 +1,4 @@
-Tentacle v0.9 (recommended, 10 pieces produced)
+Tentacle v0.9 (recommended, 15 pieces produced)
 =================================================================
 
 This repo describes the hardware of a tentacle:
@@ -25,21 +25,9 @@ The price of a assembled PCB is:
     * - Pieces
       - USD total
       - USD per piece
-    * - 5
-      - 109
-      - 21.8
-    * - 10
-      - 151
-      - 15.1
     * - 15
-      - 202
-      - 13.5
-    * - 20
-      - 252
-      - 12.6
-    * - 25
-      - 345
-      - 13.8
+      - 250
+      - 16.7
 
 The tentacle is described in more detail in :doc:`octoprobe:big_picture`
 
