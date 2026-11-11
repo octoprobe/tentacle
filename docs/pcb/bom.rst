@@ -37,6 +37,14 @@ Apart from the assembled PCB, these parts are required for a fully functional te
 
        https://www.aliexpress.com/item/1005004531564700.html
    * - 1
+     - White Label
+
+       .. image:: bom_images/white_polyester_label.jpg
+     - Many
+     - https://www.herma.co.uk/office-home/product/weatherproof-labels-a4-210-x-297-mm-extremely-strong-adhesion-10798/
+     
+       https://www.brack.ch/herma-outdoor-etiketten-210-x-297-mm-1677974
+   * - 1
      - 2x20 Header
        `Mechanical Drawning <bom_images/2x20_Header_mechanical_drawing.jpg>`_
 
