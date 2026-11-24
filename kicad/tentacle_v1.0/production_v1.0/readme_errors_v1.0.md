@@ -1,3 +1,3 @@
-# Errors on v0.8
+# Errors on v1.0
 
 ## ..

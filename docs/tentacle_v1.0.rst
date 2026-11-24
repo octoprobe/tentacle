@@ -25,9 +25,13 @@ The price of a assembled PCB is:
     * - Pieces
       - USD total
       - USD per piece
-    * - 15 TODO
-      - 250 TODO
-      - 16.7 TODO
+    * - 5
+      - 130
+      - 26
+    * - 10
+      - 200
+      - 20
+
 
 The tentacle is described in more detail in :doc:`octoprobe:big_picture`
 
